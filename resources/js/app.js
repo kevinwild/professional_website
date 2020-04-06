@@ -1,8 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
+// Router
 Vue.use(VueRouter);
-
+// Install BootstrapVue
+Vue.use(BootstrapVue);
+// BootstrapVue icon components plugin
+Vue.use(IconsPlugin);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -36,8 +41,8 @@ const contact = Vue.component('contact-component', require('./components/Contact
  * Define Routes for application
  */
 const routes = [
-    { path: '/', component: welcome },
-    { path: '/contact', component: contact }
+    { path: '/', component: welcome, name: 'welcome' },
+    { path: '/contact', component: contact , name: 'contact'}
 ];
 
 // 3. Create the router instance and pass the `routes` option
