@@ -26,17 +26,18 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('top-nav-component', require('./components/topNavComponent.vue').default);
-const foo = Vue.component('index-first-component', require('./components/IndexFirstComponent.vue').default);
-const bar = Vue.component('index-second-component', require('./components/IndexSecondComponent.vue').default);
+//.. App component is top level holding vue router and navigation
+Vue.component('app-component', require('./components/AppComponent.vue').default);
+const welcome = Vue.component('welcome-component', require('./components/WelcomeComponent.vue').default);
+const contact = Vue.component('contact-component', require('./components/ContactComponent.vue').default);
 
 
 /**
  * Define Routes for application
  */
 const routes = [
-    { path: '/foo', component: foo },
-    { path: '/bar', component: bar }
+    { path: '/', component: welcome },
+    { path: '/contact', component: contact }
 ];
 
 // 3. Create the router instance and pass the `routes` option
