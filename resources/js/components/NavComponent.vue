@@ -9,24 +9,24 @@
 
                 <!-- Right aligned nav items -->
                 <b-navbar-nav type="light" class="ml-auto">
-                    <b-nav-item :to="{ path: '/'}" :active='$route.name === "welcome"'>
-                        <i class="fas fa-hand-paper"></i>
+                    <b-nav-item :to="{ path: '/'}" :active='$route.name === "welcome"' id="navWelcome">
+                        <i class="fas fa-hand-paper welcome-icon"></i>
                         Welcome
                     </b-nav-item>
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "education"'>
+                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "education"' id="navEducation">
                         <i class="fas fa-user-graduate"></i>
                         Education
                     </b-nav-item>
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "projects"'>
+                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "projects"' id="navProjects">
                         <i class="fas fa-code-branch"></i>
                         Projects
                     </b-nav-item>
 
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "resume"'>
+                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "resume"' id="navResume">
                         <i class="fas fa-file-alt"></i>
                         Resume
                     </b-nav-item>
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "contact"'>
+                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "contact"' id="navContact">
                         <i class="fas fa-phone-volume"></i>
                         Contact
                     </b-nav-item>
@@ -43,3 +43,79 @@
         }
     }
 </script>
+
+<style lang="scss">
+    @import "../../sass/_variables.scss";
+
+    #navWelcome:hover {
+        color: $blue;
+    }
+
+    #navWelcome .active {
+        i {
+            color: $blue;
+        }
+
+        border-bottom: 2px $blue solid;
+    }
+
+    #navEducation:hover {
+        i {
+            color: $purple;
+        }
+    }
+
+    #navEducation .active i {
+        i {
+            color: $purple;
+        }
+
+        border-bottom: 2px $purple solid;
+
+    }
+
+    #navProjects:hover i {
+        color: $orange;
+
+    }
+
+    #navProjects .active i {
+        i {
+            color: $orange;
+        }
+
+        border-bottom: 2px $orange solid;
+
+    }
+
+    #navResume:hover {
+        i {
+            color: $green;
+        }
+
+    }
+
+    #navResume .active {
+        i {
+            color: $green;
+        }
+
+        border-bottom: 2px $green solid;
+
+    }
+
+    #navContact:hover i {
+        color: $yellow;
+
+    }
+
+    #navContact .active {
+        i {
+            color: $yellow;
+        }
+
+        border-bottom: 2px $yellow solid;
+
+
+    }
+</style>
