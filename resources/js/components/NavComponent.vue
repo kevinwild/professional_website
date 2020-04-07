@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type="dark" variant="dark">
+        <b-navbar toggleable="lg" type="dark" variant="dark" id="navbar">
             <b-navbar-brand href="#">Kevin Wildermuth</b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -13,16 +13,16 @@
                         <i class="fas fa-hand-paper welcome-icon"></i>
                         Welcome
                     </b-nav-item>
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "education"' id="navEducation">
+                    <b-nav-item :to="{ path: '/education'}" :active='$route.name === "education"' id="navEducation">
                         <i class="fas fa-user-graduate"></i>
                         Education
                     </b-nav-item>
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "projects"' id="navProjects">
+                    <b-nav-item :to="{ path: '/projects'}" :active='$route.name === "projects"' id="navProjects">
                         <i class="fas fa-code-branch"></i>
                         Projects
                     </b-nav-item>
 
-                    <b-nav-item :to="{ path: '/contact'}" :active='$route.name === "resume"' id="navResume">
+                    <b-nav-item :to="{ path: '/resume'}" :active='$route.name === "resume"' id="navResume">
                         <i class="fas fa-file-alt"></i>
                         Resume
                     </b-nav-item>
@@ -47,7 +47,11 @@
 <style lang="scss">
     @import "../../sass/_variables.scss";
 
-    #navWelcome:hover {
+    #navbar {
+        /* Shadow 4dp */
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.20);
+    }
+    #navWelcome:hover i{
         color: $blue;
     }
 
@@ -59,13 +63,11 @@
         border-bottom: 2px $blue solid;
     }
 
-    #navEducation:hover {
-        i {
-            color: $purple;
-        }
+    #navEducation:hover i{
+        color: $purple;
     }
 
-    #navEducation .active i {
+    #navEducation .active {
         i {
             color: $purple;
         }
@@ -79,7 +81,7 @@
 
     }
 
-    #navProjects .active i {
+    #navProjects .active {
         i {
             color: $orange;
         }
@@ -88,11 +90,8 @@
 
     }
 
-    #navResume:hover {
-        i {
-            color: $green;
-        }
-
+    #navResume:hover i{
+        color: $green;
     }
 
     #navResume .active {

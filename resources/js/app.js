@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
 
 // Router
 Vue.use(VueRouter);
@@ -15,7 +15,6 @@ Vue.use(IconsPlugin);
  */
 
 require('./bootstrap');
-
 
 
 window.Vue = require('vue');
@@ -34,6 +33,9 @@ window.Vue = require('vue');
 //.. App component is top level holding vue router and navigation
 Vue.component('app-component', require('./components/AppComponent.vue').default);
 const welcome = Vue.component('welcome-component', require('./components/WelcomeComponent.vue').default);
+const education = Vue.component('education-component', require('./components/EducationComponent.vue').default);
+const projects = Vue.component('projects-component', require('./components/ProjectsComponent.vue').default);
+const resume = Vue.component('resume-component', require('./components/ResumeComponent.vue').default);
 const contact = Vue.component('contact-component', require('./components/ContactComponent.vue').default);
 
 
@@ -41,8 +43,12 @@ const contact = Vue.component('contact-component', require('./components/Contact
  * Define Routes for application
  */
 const routes = [
-    { path: '/', component: welcome, name: 'welcome' },
-    { path: '/contact', component: contact , name: 'contact'}
+    {path: '/', component: welcome, name: 'welcome'},
+    {path: '/education', component: education, name: 'education'},
+    {path: '/projects', component: projects, name: 'projects'},
+    {path: '/resume', component: resume, name: 'resume'},
+    {path: '/contact', component: contact, name: 'contact'}
+
 ];
 
 // 3. Create the router instance and pass the `routes` option
