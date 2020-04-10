@@ -1,14 +1,10 @@
 <template>
     <div>
-         <span class="bg-img" id="bg-img-welcome"
-               style="background-image: url('/storage/welcome-background.jpg')"></span>
 
-        <b-container class="content-padding reg-shadow" id="welcomeContainer">
-
+        <b-jumbotron header="Greetings!" lead="">
             <b-row>
                 <b-col lg="8">
-                    <h1 class="text-light">Greetings!</h1>
-                    <p class="text-light">
+                    <p>
                         My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
                         experimental
                         playground!
@@ -20,8 +16,7 @@
                         I
                         continued this through my schooling which has taught me entrepreneurship, people skills and
                         discipline.
-                        At age 21 I began to learn the basics of developing websites, after launching my first
-                        website,
+                        At age 21 I began to learn the basics of developing websites, after launching my first website,
                         .
 
                     </p>
@@ -34,7 +29,9 @@
 
             </b-row>
 
-        </b-container>
+            <b-button id="learnMore" block variant="primary" href="#">Learn More</b-button>
+
+        </b-jumbotron>
 
     </div>
 </template>
@@ -55,6 +52,7 @@
         border-radius: 125px;
         width: 200px;
         height: inherit;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
     }
 
     #learnMore {
@@ -62,19 +60,6 @@
         left: 0;
         right: 0;
     }
-
-    #welcomeRow {
-        background-color: #fff;
-    }
-
-    #welcomeContainer {
-        background: $bg-black;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
 
 </style>
 

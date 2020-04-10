@@ -16,7 +16,6 @@ Vue.use(IconsPlugin);
 
 require('./bootstrap');
 
-
 window.Vue = require('vue');
 
 /**

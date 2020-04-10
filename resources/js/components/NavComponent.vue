@@ -1,7 +1,13 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type="dark" variant="dark" id="navbar">
-            <b-navbar-brand href="#">Kevin Wildermuth</b-navbar-brand>
+        <b-navbar fixed="top" toggleable="lg" type="dark" variant="dark" id="navbar">
+            <b-navbar-brand href="#">
+                Kevin Wildermuth -
+                <transition name="slide-fade">
+                    <small><em> {{ loopNames[0] }} </em></small>
+                </transition>
+
+            </b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -40,6 +46,31 @@
     export default {
         mounted() {
             console.log('App Component mounted. ')
+        },
+        data(){
+            return {
+                loopNames: [
+                    'software engineering'
+                    ,'programmer'
+                    ,'entrepreneur'
+                    ,'hobbyist'
+                    ,'creative thinker'
+                ],
+
+            }
+
+        },
+        mounted(){
+            window.setInterval(()=>{
+                this.changeLoopName();
+            }, 5000);
+
+        },
+        methods: {
+            changeLoopName(){
+                const first = this.loopNames.shift();
+                this.loopNames = this.loopNames.concat(first);
+            }
         }
     }
 </script>
@@ -114,7 +145,16 @@
         }
 
         border-bottom: 2px $yellow solid;
-
-
+    }
+    .slide-fade-enter-active {
+        transition: all .3s ease;
+    }
+    .slide-fade-leave-active {
+        transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+    }
+    .slide-fade-enter, .slide-fade-leave-to
+        /* .slide-fade-leave-active below version 2.1.8 */ {
+        transform: translateX(10px);
+        opacity: 0;
     }
 </style>
