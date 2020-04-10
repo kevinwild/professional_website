@@ -37,6 +37,8 @@ const projects = Vue.component('projects-component', require('./components/Proje
 const resume = Vue.component('resume-component', require('./components/ResumeComponent.vue').default);
 const contact = Vue.component('contact-component', require('./components/ContactComponent.vue').default);
 
+//.. Backgrounds
+Vue.component('squares-background', require('./components/backgrounds/SquaresBackground.vue').default);
 
 /**
  * Define Routes for application

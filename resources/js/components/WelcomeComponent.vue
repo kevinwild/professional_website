@@ -1,13 +1,12 @@
 <template>
     <div>
-         <span class="bg-img" id="bg-img-welcome"
-               style="background-image: url('/storage/welcome-background.jpg')"></span>
+        <squares-background></squares-background>
 
-        <b-container class="content-padding reg-shadow" id="welcomeContainer">
+        <b-container class="content-padding animated slideInLeft reg-shadow" id="welcomeContainer">
 
             <b-row>
                 <b-col lg="8">
-                    <h1 class="text-light">Greetings!</h1>
+                    <h1 class="text-light animated bounce delay-1s">Greetings!</h1>
                     <p class="text-light">
                         My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
                         experimental
@@ -28,7 +27,8 @@
 
                 </b-col>
                 <b-col lg="3" class="text-center">
-                    <img src="storage/kevin-wildermuth-software-engineer.png" class="img-fluid" id="welcomeProfile">
+                    <img src="storage/kevin-wildermuth-software-engineer.png"
+                         class="img-fluid reg-shadow animated jackInTheBox delay-2s" id="welcomeProfile">
 
                 </b-col>
 
@@ -36,13 +36,19 @@
 
         </b-container>
 
+
     </div>
 </template>
 
 <script>
+    import WelcomeBackground from './backgrounds/SquaresBackground'
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+        components: {
+            'welcome-background': WelcomeBackground
+
         }
     }
 </script>
@@ -55,6 +61,8 @@
         border-radius: 125px;
         width: 200px;
         height: inherit;
+        padding: 10px;
+        background: $grey4;
     }
 
     #learnMore {
