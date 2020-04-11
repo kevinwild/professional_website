@@ -21,7 +21,7 @@
                         discipline.
                         At age 21 I began to learn the basics of developing websites, after launching my first
                         website,
-                        .
+
 
                     </p>
 

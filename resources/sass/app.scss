@@ -36,6 +36,10 @@ body {
   z-index:-1;
 }
 
+.backdrop {
+  z-index: -1;
+}
+
 a {
   font-weight: bolder;
   color: $indigo;

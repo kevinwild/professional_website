@@ -39,6 +39,8 @@ const contact = Vue.component('contact-component', require('./components/Contact
 
 //.. Backgrounds
 Vue.component('squares-background', require('./components/backgrounds/SquaresBackground.vue').default);
+Vue.component('lines1-background', require('./components/backgrounds/ParticleBackground.vue').default);
+Vue.component('gradient-background', require('./components/backgrounds/GradientBackground.vue').default);
 
 /**
  * Define Routes for application
