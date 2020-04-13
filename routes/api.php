@@ -19,6 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::post('/contact', function(){
-    echo 'test';
-});
+Route::post('contact', 'PublicController@contactEmail');

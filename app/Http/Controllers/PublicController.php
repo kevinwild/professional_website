@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactEmailRequest;
+use App\Mail\ContactEmail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
 {
@@ -16,7 +19,9 @@ class PublicController extends Controller
         //..
     }
 
-    public function contact(){
-
+    public function contactEmail(ContactEmailRequest $request)
+    {
+        $postData = $request->validated();
+        Mail::to(config('app.myEmail'))->send(new ContactEmail($postData));
     }
 }

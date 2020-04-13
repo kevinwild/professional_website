@@ -1,7 +1,8 @@
 <template>
     <div>
-
         <nav-component></nav-component>
+        <loading-component></loading-component>
+        <message-component></message-component>
         <transition name="fade" mode="out-in">
             <router-view class="view"></router-view>
         </transition>
@@ -10,13 +11,17 @@
 
 <script>
     import NavComponent from './NavComponent';
+    import LoadingComponent from './shared/LoadingComponent';
+    import MessageComponent from './shared/MessageComponent';
 
     export default {
         mounted() {
             console.log('App Component mounted.')
         },
         components: {
-            'nav-component': NavComponent
+            'nav-component': NavComponent,
+            'loading-component': LoadingComponent,
+            'message-component': MessageComponent
         },
 
 

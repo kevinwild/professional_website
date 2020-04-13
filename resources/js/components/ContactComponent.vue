@@ -5,8 +5,8 @@
             <div class="text-center">
                 <h1>Thanks for visiting</h1>
             </div>
-            <p class="text-center">Have a question or want to work together?</p>
-            <b-form class="dark" @submit="" @reset="onReset">
+            <p class="text-center animated rubberBand delay-1s">Have a question or want to work together?</p>
+            <b-form class="dark" @submit.prevent="onSubmit">
                 <b-row>
                     <b-col>
                         <b-form-group label="Your Name:" label-for="your-name">
@@ -61,10 +61,11 @@
                     <b-col>
                         <b-form-textarea
                                 id="textarea"
-                                v-model="text"
+                                v-model="form.message"
                                 placeholder="Enter your message here..."
                                 rows="3"
                                 max-rows="6"
+                                required
                         ></b-form-textarea>
                     </b-col>
                 </b-row>
@@ -76,9 +77,14 @@
 </template>
 
 <script>
+    import PublicStore from './stores/PublicStore.js'
+
     import ParticleBackground from "./backgrounds/ParticleBackground";
 
+    const axios = require('axios');
+
     export default {
+
         data() {
             return {
                 form: {
@@ -88,15 +94,51 @@
                     phone: '',
                     message: ''
                 },
+                psMethods: PublicStore.methods,
+                psData: PublicStore.data
             }
 
         },
         methods: {
             onSubmit() {
+                this.psMethods.toggleShowLoader();
+                axios.post(`api/contact`, {
+                    name: this.form.name,
+                    discovery: this.form.discovery,
+                    email: this.form.email,
+                    phone: this.form.phone,
+                    message: this.form.message,
 
+                })
+                    .then(response => {
+                        this.clearForm();
+                        this.psData.showLoader = false;
+                        this.psMethods.showMsg('Thanks! Your message has been sent');
+
+
+                    })
+                    .catch(e => {
+                        this.psData.showLoader = false;
+                        this.psMethods.showMsg('Error while sending your message', 'danger');
+
+                        console.log('error', e);
+                        this.errors.push(e);
+
+
+                    })
+            },
+            clearForm() {
+                this.form = {
+                    name: '',
+                    discovery: '',
+                    email: '',
+                    phone: '',
+                    message: ''
+                };
             }
 
         },
+
         mounted() {
             console.log('Component mounted.')
         },
@@ -126,6 +168,7 @@
 
     input, textarea {
         background-color: black;
+        color: white;
     }
 
 
