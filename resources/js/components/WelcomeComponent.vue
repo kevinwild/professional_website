@@ -6,7 +6,7 @@
 
             <b-row>
                 <b-col lg="8">
-                    <h1 class="text-light animated bounce delay-1s">Greetings!</h1>
+                    <h1 class="animated bounce delay-1s">Greetings!</h1>
                     <p class="text-light">
                         My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
                         experimental
@@ -54,7 +54,7 @@
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
     @import "../../sass/_variables.scss";
 
     #welcomeProfile {
@@ -77,10 +77,19 @@
 
     #welcomeContainer {
         background: $bg-black;
+        border-radius: 25px;
+
     }
 
     p {
         font-size: 1.2em;
+    }
+    h1{
+        color: white;
+        display: inline-block;
+        padding-bottom: 5px;
+        position: relative;
+        border-bottom: 2px solid $blue;
     }
 
 
