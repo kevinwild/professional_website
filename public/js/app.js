@@ -2102,7 +2102,60 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _backgrounds_GradientBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./backgrounds/GradientBackground */ "./resources/js/components/backgrounds/GradientBackground.vue");
+/* harmony import */ var _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./backgrounds/WavesBackground */ "./resources/js/components/backgrounds/WavesBackground.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2114,8 +2167,55 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     console.log('Component mounted.');
   },
+  data: function data() {
+    return {
+      cardToggleText: 'Check out my career skills',
+      currentCard: 'education'
+    };
+  },
   components: {
-    'gradient-background': _backgrounds_GradientBackground__WEBPACK_IMPORTED_MODULE_0__["default"]
+    'waves-background': _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  methods: {
+    cardSwap: function cardSwap() {
+      this.animateCSS('#cardContainer', 'flipOutX', this.changeCardValues);
+    },
+    animateCSS: function animateCSS(element, animationName, callback) {
+      var delay = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
+      var node = document.querySelector(element);
+
+      if (delay !== null) {
+        node.classList.add('animated', animationName, delay);
+      } else {
+        node.classList.add('animated', animationName);
+      }
+
+      function handleAnimationEnd() {
+        node.classList.remove('animated', animationName);
+        node.removeEventListener('animationend', handleAnimationEnd);
+        if (typeof callback === 'function') callback();
+      }
+
+      node.addEventListener('animationend', handleAnimationEnd);
+    },
+    changeCardValues: function changeCardValues() {
+      switch (this.currentCard) {
+        case 'skills':
+          this.currentCard = 'education';
+          this.cardToggleText = 'View my college education';
+          break;
+
+        case 'education':
+          this.currentCard = 'skills';
+          this.cardToggleText = 'Check out my career skills';
+          break;
+
+        default:
+          this.currentCard = 'education';
+      }
+
+      this.animateCSS('#cardContainer', 'flipInX', 'delay-1s');
+    }
   }
 });
 
@@ -2218,6 +2318,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -2239,7 +2342,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _backgrounds_ParticleBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./backgrounds/ParticleBackground */ "./resources/js/components/backgrounds/ParticleBackground.vue");
+/* harmony import */ var _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./backgrounds/WavesBackground */ "./resources/js/components/backgrounds/WavesBackground.vue");
+//
+//
 //
 //
 //
@@ -2249,10 +2354,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
-    console.log('Resume Component mounted. ');
+    console.log('Component mounted.');
   },
   components: {
-    'lines1-background': _backgrounds_ParticleBackground__WEBPACK_IMPORTED_MODULE_0__["default"]
+    'waves-background': _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -2459,6 +2564,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
+  },
+  props: ['fill1', 'fill2', 'fill3', 'fill4'],
+  data: function data() {
+    return {
+      fil1: this.fill1,
+      fil2: this.fill2,
+      fil3: this.fill3,
+      fil4: this.fill4
+    };
   }
 });
 
@@ -46796,6 +46910,25 @@ exports.push([module.i, ".reg-shadow[data-v-2b26a8a8] {\n  -ms-box-shadow: 0 10p
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".reg-shadow[data-v-1951b960] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n#cardContainer[data-v-1951b960] {\n  background-color: rgba(253, 253, 253, 0.71);\n}\nh1[data-v-1951b960] {\n  display: inline-block;\n  padding-bottom: 5px;\n  position: relative;\n  border-bottom: 2px solid #9561e2;\n}\nh4[data-v-1951b960] {\n  display: inline;\n}\n.degreeText[data-v-1951b960] {\n  color: #9561e2;\n  font-weight: bold;\n}\n#hr[data-v-1951b960] {\n  border-bottom: #9561e2 solid 2px;\n  display: block;\n}\n.smallText[data-v-1951b960] {\n  display: inline;\n}\n#cardToggle[data-v-1951b960] {\n  padding: 5px;\n  border: solid 1px #9561e2;\n  font-weight: bold;\n}\n.dropShadow[data-v-1951b960] {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n.dropShadow[data-v-1951b960]:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  cursor: pointer;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavComponent.vue?vue&type=style&index=0&lang=scss&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/NavComponent.vue?vue&type=style&index=0&lang=scss& ***!
@@ -46865,7 +46998,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 18%;\n  left: 80%;\n  -webkit-animation-duration: 23.5s;\n          animation-duration: 23.5s;\n  -webkit-animation-delay: -11.8s;\n          animation-delay: -11.8s;\n  transform-origin: 7vw 7vh;\n  box-shadow: -40vmin 0 6.396315944vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 36%;\n  left: 77%;\n  -webkit-animation-duration: 22.3s;\n          animation-duration: 22.3s;\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n  transform-origin: 21vw -11vh;\n  box-shadow: -40vmin 0 11.131425652vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 96%;\n  left: 43%;\n  -webkit-animation-duration: 23.4s;\n          animation-duration: 23.4s;\n  -webkit-animation-delay: -13.1s;\n          animation-delay: -13.1s;\n  transform-origin: -16vw -12vh;\n  box-shadow: -40vmin 0 12.1768806628vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 44%;\n  left: 5%;\n  -webkit-animation-duration: 20.4s;\n          animation-duration: 20.4s;\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n  transform-origin: -9vw 9vh;\n  box-shadow: -40vmin 0 10.6640413271vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 19%;\n  left: 75%;\n  -webkit-animation-duration: 20.1s;\n          animation-duration: 20.1s;\n  -webkit-animation-delay: -11.1s;\n          animation-delay: -11.1s;\n  transform-origin: -14vw -22vh;\n  box-shadow: 40vmin 0 9.5415212222vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 2%;\n  left: 86%;\n  -webkit-animation-duration: 20.7s;\n          animation-duration: 20.7s;\n  -webkit-animation-delay: -2.3s;\n          animation-delay: -2.3s;\n  transform-origin: -9vw 8vh;\n  box-shadow: -40vmin 0 11.7061315975vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 58%;\n  left: 76%;\n  -webkit-animation-duration: 24.5s;\n          animation-duration: 24.5s;\n  -webkit-animation-delay: -11.4s;\n          animation-delay: -11.4s;\n  transform-origin: 23vw -4vh;\n  box-shadow: -40vmin 0 10.8011816434vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 67%;\n  left: 58%;\n  -webkit-animation-duration: 22s;\n          animation-duration: 22s;\n  -webkit-animation-delay: -3.6s;\n          animation-delay: -3.6s;\n  transform-origin: 21vw -5vh;\n  box-shadow: -40vmin 0 12.0342120516vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 31%;\n  left: 50%;\n  -webkit-animation-duration: 23.5s;\n          animation-duration: 23.5s;\n  -webkit-animation-delay: -4.7s;\n          animation-delay: -4.7s;\n  transform-origin: 0vw -18vh;\n  box-shadow: 40vmin 0 5.6193406142vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 56%;\n  left: 8%;\n  -webkit-animation-duration: 22.3s;\n          animation-duration: 22.3s;\n  -webkit-animation-delay: -12.6s;\n          animation-delay: -12.6s;\n  transform-origin: 23vw 23vh;\n  box-shadow: 40vmin 0 7.9548521804vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 3%;\n  left: 92%;\n  -webkit-animation-duration: 22.1s;\n          animation-duration: 22.1s;\n  -webkit-animation-delay: -2.6s;\n          animation-delay: -2.6s;\n  transform-origin: 5vw 20vh;\n  box-shadow: -40vmin 0 7.6697934206vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 9%;\n  left: 33%;\n  -webkit-animation-duration: 22.8s;\n          animation-duration: 22.8s;\n  -webkit-animation-delay: -1.9s;\n          animation-delay: -1.9s;\n  transform-origin: 13vw -2vh;\n  box-shadow: -40vmin 0 6.6332025358vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 38%;\n  left: 63%;\n  -webkit-animation-duration: 20.8s;\n          animation-duration: 20.8s;\n  -webkit-animation-delay: -4.7s;\n          animation-delay: -4.7s;\n  transform-origin: -12vw -17vh;\n  box-shadow: 40vmin 0 14.7760130997vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 97%;\n  left: 25%;\n  -webkit-animation-duration: 24.2s;\n          animation-duration: 24.2s;\n  -webkit-animation-delay: -12.1s;\n          animation-delay: -12.1s;\n  transform-origin: -5vw 23vh;\n  box-shadow: 40vmin 0 9.262963689vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 66%;\n  left: 99%;\n  -webkit-animation-duration: 24.7s;\n          animation-duration: 24.7s;\n  -webkit-animation-delay: -1.3s;\n          animation-delay: -1.3s;\n  transform-origin: -7vw -1vh;\n  box-shadow: -40vmin 0 5.4242443499vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 90%;\n  left: 6%;\n  -webkit-animation-duration: 24.3s;\n          animation-duration: 24.3s;\n  -webkit-animation-delay: -10.1s;\n          animation-delay: -10.1s;\n  transform-origin: 7vw -18vh;\n  box-shadow: -40vmin 0 13.0418466573vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 50%;\n  left: 91%;\n  -webkit-animation-duration: 24.9s;\n          animation-duration: 24.9s;\n  -webkit-animation-delay: -10.3s;\n          animation-delay: -10.3s;\n  transform-origin: -5vw -24vh;\n  box-shadow: 40vmin 0 8.715817027vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 69%;\n  left: 61%;\n  -webkit-animation-duration: 21.2s;\n          animation-duration: 21.2s;\n  -webkit-animation-delay: -10.1s;\n          animation-delay: -10.1s;\n  transform-origin: 14vw -10vh;\n  box-shadow: -40vmin 0 10.3051162049vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 35%;\n  left: 85%;\n  -webkit-animation-duration: 20.3s;\n          animation-duration: 20.3s;\n  -webkit-animation-delay: -11s;\n          animation-delay: -11s;\n  transform-origin: 2vw 7vh;\n  box-shadow: 40vmin 0 14.2689283628vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 26%;\n  left: 80%;\n  -webkit-animation-duration: 21.1s;\n          animation-duration: 21.1s;\n  -webkit-animation-delay: -13.6s;\n          animation-delay: -13.6s;\n  transform-origin: -13vw -2vh;\n  box-shadow: 40vmin 0 11.0317309383vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 52%;\n  left: 92%;\n  -webkit-animation-duration: 23s;\n          animation-duration: 23s;\n  -webkit-animation-delay: -15.3s;\n          animation-delay: -15.3s;\n  transform-origin: -18vw -10vh;\n  box-shadow: -40vmin 0 13.848282333vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 9%;\n  left: 1%;\n  -webkit-animation-duration: 24s;\n          animation-duration: 24s;\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  transform-origin: 16vw -3vh;\n  box-shadow: 40vmin 0 9.7076458317vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 74%;\n  left: 92%;\n  -webkit-animation-duration: 25.3s;\n          animation-duration: 25.3s;\n  -webkit-animation-delay: -15.2s;\n          animation-delay: -15.2s;\n  transform-origin: -3vw 14vh;\n  box-shadow: 40vmin 0 14.5110129076vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 40%;\n  left: 4%;\n  -webkit-animation-duration: 22.2s;\n          animation-duration: 22.2s;\n  -webkit-animation-delay: -12.1s;\n          animation-delay: -12.1s;\n  transform-origin: 19vw -10vh;\n  box-shadow: -40vmin 0 12.8401597111vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 60%;\n  left: 83%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -14.7s;\n          animation-delay: -14.7s;\n  transform-origin: 17vw -22vh;\n  box-shadow: -40vmin 0 10.0212129826vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 27%;\n  left: 61%;\n  -webkit-animation-duration: 21.2s;\n          animation-duration: 21.2s;\n  -webkit-animation-delay: -4.3s;\n          animation-delay: -4.3s;\n  transform-origin: -1vw 5vh;\n  box-shadow: 40vmin 0 10.1448230671vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 17%;\n  left: 90%;\n  -webkit-animation-duration: 25.6s;\n          animation-duration: 25.6s;\n  -webkit-animation-delay: -7.7s;\n          animation-delay: -7.7s;\n  transform-origin: 20vw 16vh;\n  box-shadow: -40vmin 0 9.7706491479vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 56%;\n  left: 39%;\n  -webkit-animation-duration: 22.6s;\n          animation-duration: 22.6s;\n  -webkit-animation-delay: -7s;\n          animation-delay: -7s;\n  transform-origin: -21vw -8vh;\n  box-shadow: 40vmin 0 10.6093874992vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 44%;\n  left: 76%;\n  -webkit-animation-duration: 20.1s;\n          animation-duration: 20.1s;\n  -webkit-animation-delay: -7.3s;\n          animation-delay: -7.3s;\n  transform-origin: -6vw -9vh;\n  box-shadow: 40vmin 0 10.6784169263vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 64%;\n  left: 72%;\n  -webkit-animation-duration: 22.6s;\n          animation-duration: 22.6s;\n  -webkit-animation-delay: -14.2s;\n          animation-delay: -14.2s;\n  transform-origin: 17vw -24vh;\n  box-shadow: -40vmin 0 7.1616494195vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 44%;\n  left: 87%;\n  -webkit-animation-duration: 21s;\n          animation-duration: 21s;\n  -webkit-animation-delay: -15.1s;\n          animation-delay: -15.1s;\n  transform-origin: 7vw -17vh;\n  box-shadow: 40vmin 0 10.7767977323vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 29%;\n  left: 30%;\n  -webkit-animation-duration: 25.1s;\n          animation-duration: 25.1s;\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n  transform-origin: -10vw 22vh;\n  box-shadow: -40vmin 0 9.4224358629vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 98%;\n  left: 92%;\n  -webkit-animation-duration: 20.5s;\n          animation-duration: 20.5s;\n  -webkit-animation-delay: -13.1s;\n          animation-delay: -13.1s;\n  transform-origin: -4vw -14vh;\n  box-shadow: 40vmin 0 5.4754260215vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 31%;\n  left: 6%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -6.4s;\n          animation-delay: -6.4s;\n  transform-origin: 0vw -16vh;\n  box-shadow: 40vmin 0 10.8869599933vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 52%;\n  left: 85%;\n  -webkit-animation-duration: 22s;\n          animation-duration: 22s;\n  -webkit-animation-delay: -2.7s;\n          animation-delay: -2.7s;\n  transform-origin: -3vw 3vh;\n  box-shadow: 40vmin 0 5.3738201428vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 78%;\n  left: 9%;\n  -webkit-animation-duration: 25.2s;\n          animation-duration: 25.2s;\n  -webkit-animation-delay: -6.2s;\n          animation-delay: -6.2s;\n  transform-origin: 10vw 18vh;\n  box-shadow: -40vmin 0 10.6827000835vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 48%;\n  left: 38%;\n  -webkit-animation-duration: 22s;\n          animation-duration: 22s;\n  -webkit-animation-delay: -3.7s;\n          animation-delay: -3.7s;\n  transform-origin: -24vw -3vh;\n  box-shadow: -40vmin 0 8.960433057vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 66%;\n  left: 93%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -2.1s;\n          animation-delay: -2.1s;\n  transform-origin: 0vw 20vh;\n  box-shadow: 40vmin 0 11.1991026688vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 17%;\n  left: 10%;\n  -webkit-animation-duration: 20.4s;\n          animation-duration: 20.4s;\n  -webkit-animation-delay: -6.8s;\n          animation-delay: -6.8s;\n  transform-origin: 3vw -21vh;\n  box-shadow: 40vmin 0 5.5671471853vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 50%;\n  left: 83%;\n  -webkit-animation-duration: 26s;\n          animation-duration: 26s;\n  -webkit-animation-delay: -13.4s;\n          animation-delay: -13.4s;\n  transform-origin: 18vw -15vh;\n  box-shadow: 40vmin 0 11.2590947307vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}", ""]);
 
 // exports
 
@@ -78472,6 +78605,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavComponent.vue?vue&type=style&index=0&lang=scss&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/NavComponent.vue?vue&type=style&index=0&lang=scss& ***!
@@ -79600,10 +79763,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79615,7 +79778,125 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("gradient-background")], 1)
+  return _c(
+    "div",
+    [
+      _c("waves-background", {
+        attrs: {
+          fill1: "rgba(149, 97, 226,0.7",
+          fill2: "rgba(149, 97, 226,0.5)",
+          fill3: "rgba(149, 97, 226,0.3)",
+          fill4: "#9561e2"
+        }
+      }),
+      _vm._v(" "),
+      _c(
+        "b-container",
+        {
+          staticClass: "content-padding animated bounceInDown bg-light",
+          attrs: { id: "cardContainer" }
+        },
+        [
+          _c("div", { staticClass: "animated slideInRight delay-1s" }, [
+            _c(
+              "p",
+              {
+                staticClass:
+                  "dropShadow float-right animated rubberBand delay-5s",
+                attrs: { id: "cardToggle" },
+                on: { click: _vm.cardSwap }
+              },
+              [
+                _vm._v(
+                  "\n                " +
+                    _vm._s(_vm.cardToggleText) +
+                    "\n            "
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _vm.currentCard === "education"
+            ? _c("div", [
+                _c("h1", { staticClass: "animated delay-1s" }, [
+                  _vm._v("College Education")
+                ]),
+                _vm._v(" "),
+                _c("h3", [_vm._v("New Jersey Institute of Technology")]),
+                _vm._v(" "),
+                _c("h4", { staticClass: "degreeText" }, [
+                  _vm._v("Bachelors in Web Information Systems:")
+                ]),
+                _c("span", { staticClass: "smallText" }, [
+                  _vm._v("- summer 2018")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n                The Web and Information Systems program provides you with the practical skills and technical\n                understanding needed to design, implement, maintain and improve the functionality of websites for\n                large-scale organizations.\n                "
+                  ),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href:
+                          "https://catalog.njit.edu/undergraduate/computing-sciences/information-systems/web-information-systems-bs/",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    (degree courses)\n                "
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "d-left", attrs: { id: "hr" } }),
+                _vm._v(" "),
+                _c("h3", { staticClass: "mt-2" }, [
+                  _vm._v("Passaic County Community College")
+                ]),
+                _vm._v(" "),
+                _c("h4", { staticClass: "degreeText" }, [
+                  _vm._v(
+                    "Associate in Applied Science - Web and Mobile Development"
+                  )
+                ]),
+                _c("span", { staticClass: "smallText" }, [
+                  _vm._v("- summer 2015")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n                The Information Technology major is designed to provide students interested in beginning, changing,\n                or advancing technology careers with a broad-based background in all areas of Information\n                Technology.\n                IT majors with this option are qualified for positions as a Web Applications Developer, Web Support\n                Specialist, and Web Manager and Administrator. Students will be prepared to support computing in a\n                networked environment and also be able to transfer to selected institutions of higher learning.\n                "
+                  ),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://catalog.pccc.edu/program/100/",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    (degree courses)\n                "
+                      )
+                    ]
+                  )
+                ])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.currentCard === "skills"
+            ? _c("div", [_c("h1", [_vm._v("Acquired Skills")])])
+            : _vm._e()
+        ]
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -79791,7 +80072,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("waves-background")], 1)
+  return _c(
+    "div",
+    [
+      _c("waves-background", {
+        attrs: {
+          fill1: "rgba(246, 153, 63,0.7",
+          fill2: "rgba(246, 153, 63,0.5)",
+          fill3: "rgba(246, 153, 63,0.3)",
+          fill4: "#f6993f"
+        }
+      })
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -79815,7 +80109,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("lines1-background")], 1)
+  return _c(
+    "div",
+    [
+      _c("waves-background", {
+        attrs: {
+          fill1: "rgba(56, 193, 114, 63,0.7",
+          fill2: "rgba(56, 193, 114,0.5)",
+          fill3: "rgba(56, 193, 114,0.3)",
+          fill4: "#38c172"
+        }
+      })
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -80103,7 +80410,7 @@ var render = function() {
                 "xlink:href": "#gentle-wave",
                 x: "48",
                 y: "0",
-                fill: "rgba(246, 153, 63,0.7"
+                fill: _vm.fill1
               }
             }),
             _vm._v(" "),
@@ -80112,7 +80419,7 @@ var render = function() {
                 "xlink:href": "#gentle-wave",
                 x: "48",
                 y: "3",
-                fill: "rgba(246, 153, 63,0.5)"
+                fill: _vm.fill2
               }
             }),
             _vm._v(" "),
@@ -80121,7 +80428,7 @@ var render = function() {
                 "xlink:href": "#gentle-wave",
                 x: "48",
                 y: "5",
-                fill: "rgba(246, 153, 63,0.3)"
+                fill: _vm.fill3
               }
             }),
             _vm._v(" "),
@@ -80130,7 +80437,7 @@ var render = function() {
                 "xlink:href": "#gentle-wave",
                 x: "48",
                 y: "7",
-                fill: "#f6993f"
+                fill: _vm.fill4
               }
             })
           ])
@@ -95684,9 +95991,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _EducationComponent_vue_vue_type_template_id_1951b960___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EducationComponent.vue?vue&type=template&id=1951b960& */ "./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&");
+/* harmony import */ var _EducationComponent_vue_vue_type_template_id_1951b960_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EducationComponent.vue?vue&type=template&id=1951b960&scoped=true& */ "./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&scoped=true&");
 /* harmony import */ var _EducationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EducationComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/EducationComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true& */ "./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -95694,13 +96003,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _EducationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _EducationComponent_vue_vue_type_template_id_1951b960___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _EducationComponent_vue_vue_type_template_id_1951b960___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _EducationComponent_vue_vue_type_template_id_1951b960_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _EducationComponent_vue_vue_type_template_id_1951b960_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "1951b960",
   null
   
 )
@@ -95726,19 +96035,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&":
-/*!***************************************************************************************!*\
-  !*** ./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960& ***!
-  \***************************************************************************************/
+/***/ "./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=style&index=0&id=1951b960&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_style_index_0_id_1951b960_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&scoped=true&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&scoped=true& ***!
+  \***************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_template_id_1951b960___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./EducationComponent.vue?vue&type=template&id=1951b960& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_template_id_1951b960___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_template_id_1951b960_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./EducationComponent.vue?vue&type=template&id=1951b960&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EducationComponent.vue?vue&type=template&id=1951b960&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_template_id_1951b960_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_template_id_1951b960___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EducationComponent_vue_vue_type_template_id_1951b960_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
