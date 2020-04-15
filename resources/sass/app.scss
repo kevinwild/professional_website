@@ -38,6 +38,9 @@ body {
 .backdrop {
   z-index: -1;
 }
+.aboveBackground {
+  z-index: 5;
+}
 
 a {
   font-weight: bolder;

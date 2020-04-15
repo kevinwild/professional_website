@@ -2162,6 +2162,45 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -2170,7 +2209,58 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       cardToggleText: 'Check out my career skills',
-      currentCard: 'education'
+      currentCard: 'education',
+      frontendSkills: [{
+        name: 'HTML',
+        description: 'A scripting language that defines the layout a web page. I have a very clear ' + 'understanding of HTML and how to create and parse it programmatically.',
+        value: 95
+      }, {
+        name: 'CSS',
+        description: 'A style language for expressing the presentation of a structured document, such as ' + 'a web page. I am proficient in understanding and writing CSS, although not a master.' + ' CSS can be very frustrating and while I enjoy tweaking complex animated sequences, the level' + 'of pure CSS creation is a mastery of art.',
+        value: 85
+      }, {
+        name: 'JavaScript',
+        description: 'A scripting language that is interpreted by your browser to add functionality to ' + 'a web page. I first learned vanilla JS when I began programming, now I prefer to use a ' + 'framework instead, which is why I gave my self a lower score.',
+        value: 70
+      }, {
+        name: 'Vue.js',
+        description: 'A light weight JavaScript framework used to build user interfaces and single ' + 'page applications (SPA). Vue.js is my preferred frontend framework that I mainly pair with a ' + 'Laravel backend API. I plan on trying Vue Native for mobile app development in the near ' + 'future',
+        value: 75
+      }, {
+        name: 'React.js',
+        description: 'A JavaScript library for building user interfaces and single page applications ' + '(SPA). I have only built some small testing projects in React and React Native. I am willing' + 'to explore further but am not fond of JSX and tend to use Vue.js when optional. ',
+        value: 40
+      }],
+      backendSkills: [{
+        name: 'PHP',
+        description: 'A server side scripting language for building dynamic web pages. I began my career' + 'using vanilla procedural PHP. As my education advanced I began learning object oriented PHP,' + ' frameworks and package management such as Composer. PHP is my preferred backend language to build' + 'robust web applications.',
+        value: 83
+      }, {
+        name: 'Laravel',
+        description: 'An MVC PHP framework used to build robust web application. Laravel is my favorite' + 'framework to work in. I really enjoy building advance REST APIs. I am currently working as ' + 'a Laravel Developer but tend to code in other languages as well.',
+        value: 83
+      }, {
+        name: 'Node.js',
+        description: 'JavaScript runtime environment that executes JavaScript outside of a web browser.' + ' I have done some projects in node but not many. One project I wrote was a web page screen shot' + ' tool. The program takes a seed of URLs, visits the website, scrolls to the bottom,' + ' takes a screen shot and resize the image for final viewing.',
+        value: 40
+      }, {
+        name: 'Python',
+        description: 'An interpreted high level programming language. I have moderate experience with ' + 'Python since I used it throughout my college career to complete a variety of assignments.' + ' My favorite being a web scrapper. I have mainly used Python for data crunching and ' + 'tinkering with my Raspberry Pi, I do not have much experience with Python and web development.' + 'Although, I am sure I can adapt quickly.',
+        value: 80
+      }],
+      otherSkills: [{
+        name: 'Application Architecture',
+        description: 'I really enjoy building entire applications from, concept to product. While most' + 'applications require custom tech stacks, I am most familiar with Linux, Apache, MySQL & PHP (LAMP).' + 'I will lean towards a LAMP stack with Laravel Backend and Vue.js frontend. Recently I began working with ' + 'Docker, which I have been implementing system orchestrations.',
+        value: 70
+      }, {
+        name: 'Git',
+        description: 'Version control system for tracking changes in source code during software development.' + ' Since I learned Git I began using it for every project. I am a casual user and know basics ' + 'when it it comes to committing, branches, merges and remote repos. Git can get very complicated' + ' when a lot programmers are sharing the same repository. I am less familiar with some of the more complex ' + 'git functions. ',
+        value: 80
+      }, {
+        name: 'Docker',
+        description: 'A Platform that performs OS-level vitalization to deliver software in isolated containers.' + ' I think Docker is an amazing tool, I began using it as a local dev environment and then ' + '',
+        value: 80
+      }]
     };
   },
   components: {
@@ -46922,7 +47012,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-1951b960] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n#cardContainer[data-v-1951b960] {\n  background-color: rgba(253, 253, 253, 0.71);\n}\nh1[data-v-1951b960] {\n  display: inline-block;\n  padding-bottom: 5px;\n  position: relative;\n  border-bottom: 2px solid #9561e2;\n}\nh4[data-v-1951b960] {\n  display: inline;\n}\n.degreeText[data-v-1951b960] {\n  color: #9561e2;\n  font-weight: bold;\n}\n#hr[data-v-1951b960] {\n  border-bottom: #9561e2 solid 2px;\n  display: block;\n}\n.smallText[data-v-1951b960] {\n  display: inline;\n}\n#cardToggle[data-v-1951b960] {\n  padding: 5px;\n  border: solid 1px #9561e2;\n  font-weight: bold;\n}\n.dropShadow[data-v-1951b960] {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n.dropShadow[data-v-1951b960]:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  cursor: pointer;\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-1951b960] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n#cardContainer[data-v-1951b960] {\n  z-index: 3;\n  margin-bottom: 25px;\n}\nh1[data-v-1951b960] {\n  display: inline-block;\n  padding-bottom: 5px;\n  position: relative;\n  border-bottom: 2px solid #9561e2;\n}\nh4[data-v-1951b960] {\n  display: inline;\n  color: #9561e2;\n  font-weight: bold;\n}\n.degreeText[data-v-1951b960] {\n  color: #9561e2;\n  font-weight: bold;\n}\n#hr[data-v-1951b960] {\n  border-bottom: #9561e2 solid 2px;\n  display: block;\n}\n.smallText[data-v-1951b960] {\n  display: inline;\n}\n#cardToggle[data-v-1951b960] {\n  padding: 5px;\n  border: solid 1px #9561e2;\n  font-weight: bold;\n}\n.dropShadow[data-v-1951b960] {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n.dropShadow[data-v-1951b960]:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  cursor: pointer;\n}\n.progress[data-v-1951b960] {\n  margin-top: -10px;\n  margin-bottom: 5px;\n}\n.skillLink[data-v-1951b960] {\n  cursor: pointer;\n}", ""]);
 
 // exports
 
@@ -46998,7 +47088,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 52%;\n  left: 92%;\n  -webkit-animation-duration: 23s;\n          animation-duration: 23s;\n  -webkit-animation-delay: -15.3s;\n          animation-delay: -15.3s;\n  transform-origin: -18vw -10vh;\n  box-shadow: -40vmin 0 13.848282333vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 9%;\n  left: 1%;\n  -webkit-animation-duration: 24s;\n          animation-duration: 24s;\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  transform-origin: 16vw -3vh;\n  box-shadow: 40vmin 0 9.7076458317vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 74%;\n  left: 92%;\n  -webkit-animation-duration: 25.3s;\n          animation-duration: 25.3s;\n  -webkit-animation-delay: -15.2s;\n          animation-delay: -15.2s;\n  transform-origin: -3vw 14vh;\n  box-shadow: 40vmin 0 14.5110129076vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 40%;\n  left: 4%;\n  -webkit-animation-duration: 22.2s;\n          animation-duration: 22.2s;\n  -webkit-animation-delay: -12.1s;\n          animation-delay: -12.1s;\n  transform-origin: 19vw -10vh;\n  box-shadow: -40vmin 0 12.8401597111vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 60%;\n  left: 83%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -14.7s;\n          animation-delay: -14.7s;\n  transform-origin: 17vw -22vh;\n  box-shadow: -40vmin 0 10.0212129826vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 27%;\n  left: 61%;\n  -webkit-animation-duration: 21.2s;\n          animation-duration: 21.2s;\n  -webkit-animation-delay: -4.3s;\n          animation-delay: -4.3s;\n  transform-origin: -1vw 5vh;\n  box-shadow: 40vmin 0 10.1448230671vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 17%;\n  left: 90%;\n  -webkit-animation-duration: 25.6s;\n          animation-duration: 25.6s;\n  -webkit-animation-delay: -7.7s;\n          animation-delay: -7.7s;\n  transform-origin: 20vw 16vh;\n  box-shadow: -40vmin 0 9.7706491479vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 56%;\n  left: 39%;\n  -webkit-animation-duration: 22.6s;\n          animation-duration: 22.6s;\n  -webkit-animation-delay: -7s;\n          animation-delay: -7s;\n  transform-origin: -21vw -8vh;\n  box-shadow: 40vmin 0 10.6093874992vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 44%;\n  left: 76%;\n  -webkit-animation-duration: 20.1s;\n          animation-duration: 20.1s;\n  -webkit-animation-delay: -7.3s;\n          animation-delay: -7.3s;\n  transform-origin: -6vw -9vh;\n  box-shadow: 40vmin 0 10.6784169263vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 64%;\n  left: 72%;\n  -webkit-animation-duration: 22.6s;\n          animation-duration: 22.6s;\n  -webkit-animation-delay: -14.2s;\n          animation-delay: -14.2s;\n  transform-origin: 17vw -24vh;\n  box-shadow: -40vmin 0 7.1616494195vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 44%;\n  left: 87%;\n  -webkit-animation-duration: 21s;\n          animation-duration: 21s;\n  -webkit-animation-delay: -15.1s;\n          animation-delay: -15.1s;\n  transform-origin: 7vw -17vh;\n  box-shadow: 40vmin 0 10.7767977323vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 29%;\n  left: 30%;\n  -webkit-animation-duration: 25.1s;\n          animation-duration: 25.1s;\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n  transform-origin: -10vw 22vh;\n  box-shadow: -40vmin 0 9.4224358629vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 98%;\n  left: 92%;\n  -webkit-animation-duration: 20.5s;\n          animation-duration: 20.5s;\n  -webkit-animation-delay: -13.1s;\n          animation-delay: -13.1s;\n  transform-origin: -4vw -14vh;\n  box-shadow: 40vmin 0 5.4754260215vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 31%;\n  left: 6%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -6.4s;\n          animation-delay: -6.4s;\n  transform-origin: 0vw -16vh;\n  box-shadow: 40vmin 0 10.8869599933vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 52%;\n  left: 85%;\n  -webkit-animation-duration: 22s;\n          animation-duration: 22s;\n  -webkit-animation-delay: -2.7s;\n          animation-delay: -2.7s;\n  transform-origin: -3vw 3vh;\n  box-shadow: 40vmin 0 5.3738201428vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 78%;\n  left: 9%;\n  -webkit-animation-duration: 25.2s;\n          animation-duration: 25.2s;\n  -webkit-animation-delay: -6.2s;\n          animation-delay: -6.2s;\n  transform-origin: 10vw 18vh;\n  box-shadow: -40vmin 0 10.6827000835vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 48%;\n  left: 38%;\n  -webkit-animation-duration: 22s;\n          animation-duration: 22s;\n  -webkit-animation-delay: -3.7s;\n          animation-delay: -3.7s;\n  transform-origin: -24vw -3vh;\n  box-shadow: -40vmin 0 8.960433057vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 66%;\n  left: 93%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -2.1s;\n          animation-delay: -2.1s;\n  transform-origin: 0vw 20vh;\n  box-shadow: 40vmin 0 11.1991026688vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 17%;\n  left: 10%;\n  -webkit-animation-duration: 20.4s;\n          animation-duration: 20.4s;\n  -webkit-animation-delay: -6.8s;\n          animation-delay: -6.8s;\n  transform-origin: 3vw -21vh;\n  box-shadow: 40vmin 0 5.5671471853vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 50%;\n  left: 83%;\n  -webkit-animation-duration: 26s;\n          animation-duration: 26s;\n  -webkit-animation-delay: -13.4s;\n          animation-delay: -13.4s;\n  transform-origin: 18vw -15vh;\n  box-shadow: 40vmin 0 11.2590947307vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 100%;\n  left: 5%;\n  -webkit-animation-duration: 22.1s;\n          animation-duration: 22.1s;\n  -webkit-animation-delay: -14.3s;\n          animation-delay: -14.3s;\n  transform-origin: -6vw -2vh;\n  box-shadow: -40vmin 0 9.6036844701vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 46%;\n  left: 38%;\n  -webkit-animation-duration: 25.2s;\n          animation-duration: 25.2s;\n  -webkit-animation-delay: -14.4s;\n          animation-delay: -14.4s;\n  transform-origin: 16vw 14vh;\n  box-shadow: -40vmin 0 7.4603826641vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 25%;\n  left: 91%;\n  -webkit-animation-duration: 24.3s;\n          animation-duration: 24.3s;\n  -webkit-animation-delay: -1.5s;\n          animation-delay: -1.5s;\n  transform-origin: 10vw 9vh;\n  box-shadow: 40vmin 0 13.6418344275vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 13%;\n  left: 14%;\n  -webkit-animation-duration: 24.5s;\n          animation-duration: 24.5s;\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  transform-origin: -2vw -14vh;\n  box-shadow: 40vmin 0 6.4626674433vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 80%;\n  left: 56%;\n  -webkit-animation-duration: 22.2s;\n          animation-duration: 22.2s;\n  -webkit-animation-delay: -14.9s;\n          animation-delay: -14.9s;\n  transform-origin: -3vw 4vh;\n  box-shadow: -40vmin 0 9.4889360052vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 92%;\n  left: 34%;\n  -webkit-animation-duration: 24s;\n          animation-duration: 24s;\n  -webkit-animation-delay: -0.7s;\n          animation-delay: -0.7s;\n  transform-origin: 22vw -16vh;\n  box-shadow: 40vmin 0 12.1104937952vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 31%;\n  left: 52%;\n  -webkit-animation-duration: 25.8s;\n          animation-duration: 25.8s;\n  -webkit-animation-delay: -4.6s;\n          animation-delay: -4.6s;\n  transform-origin: 20vw 15vh;\n  box-shadow: 40vmin 0 10.2933402422vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 39%;\n  left: 45%;\n  -webkit-animation-duration: 25.7s;\n          animation-duration: 25.7s;\n  -webkit-animation-delay: -8.2s;\n          animation-delay: -8.2s;\n  transform-origin: 1vw -12vh;\n  box-shadow: 40vmin 0 6.2872798953vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 26%;\n  left: 59%;\n  -webkit-animation-duration: 22.1s;\n          animation-duration: 22.1s;\n  -webkit-animation-delay: -10.3s;\n          animation-delay: -10.3s;\n  transform-origin: -17vw -2vh;\n  box-shadow: -40vmin 0 7.3270166502vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 5%;\n  left: 91%;\n  -webkit-animation-duration: 20.3s;\n          animation-duration: 20.3s;\n  -webkit-animation-delay: -15.1s;\n          animation-delay: -15.1s;\n  transform-origin: -2vw -23vh;\n  box-shadow: -40vmin 0 7.4911775552vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 4%;\n  left: 87%;\n  -webkit-animation-duration: 25.2s;\n          animation-duration: 25.2s;\n  -webkit-animation-delay: -0.5s;\n          animation-delay: -0.5s;\n  transform-origin: -13vw -24vh;\n  box-shadow: -40vmin 0 11.4788748064vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 26%;\n  left: 45%;\n  -webkit-animation-duration: 21.9s;\n          animation-duration: 21.9s;\n  -webkit-animation-delay: -11.9s;\n          animation-delay: -11.9s;\n  transform-origin: -13vw -19vh;\n  box-shadow: -40vmin 0 13.5617613437vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 3%;\n  left: 53%;\n  -webkit-animation-duration: 21.2s;\n          animation-duration: 21.2s;\n  -webkit-animation-delay: -14.3s;\n          animation-delay: -14.3s;\n  transform-origin: 3vw -5vh;\n  box-shadow: -40vmin 0 12.1995894742vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 58%;\n  left: 4%;\n  -webkit-animation-duration: 22.2s;\n          animation-duration: 22.2s;\n  -webkit-animation-delay: -15.2s;\n          animation-delay: -15.2s;\n  transform-origin: 6vw 18vh;\n  box-shadow: -40vmin 0 11.0652545479vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 57%;\n  left: 16%;\n  -webkit-animation-duration: 22.8s;\n          animation-duration: 22.8s;\n  -webkit-animation-delay: -2.7s;\n          animation-delay: -2.7s;\n  transform-origin: -8vw -11vh;\n  box-shadow: -40vmin 0 12.7380188915vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 56%;\n  left: 83%;\n  -webkit-animation-duration: 23.5s;\n          animation-duration: 23.5s;\n  -webkit-animation-delay: -12.7s;\n          animation-delay: -12.7s;\n  transform-origin: 16vw -20vh;\n  box-shadow: 40vmin 0 8.8778554966vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 100%;\n  left: 24%;\n  -webkit-animation-duration: 23.8s;\n          animation-duration: 23.8s;\n  -webkit-animation-delay: -8.9s;\n          animation-delay: -8.9s;\n  transform-origin: 21vw -10vh;\n  box-shadow: -40vmin 0 7.0872828632vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 59%;\n  left: 36%;\n  -webkit-animation-duration: 23.9s;\n          animation-duration: 23.9s;\n  -webkit-animation-delay: -9.3s;\n          animation-delay: -9.3s;\n  transform-origin: -24vw -12vh;\n  box-shadow: -40vmin 0 5.7853158876vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 79%;\n  left: 21%;\n  -webkit-animation-duration: 20.9s;\n          animation-duration: 20.9s;\n  -webkit-animation-delay: -4.3s;\n          animation-delay: -4.3s;\n  transform-origin: -14vw 21vh;\n  box-shadow: 40vmin 0 12.0064043729vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 88%;\n  left: 41%;\n  -webkit-animation-duration: 23.3s;\n          animation-duration: 23.3s;\n  -webkit-animation-delay: -15.1s;\n          animation-delay: -15.1s;\n  transform-origin: 23vw 0vh;\n  box-shadow: 40vmin 0 8.968231863vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 1px) rotate(360deg);\n}\n}", ""]);
 
 // exports
 
@@ -47036,7 +47126,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-c3f9cb7a] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.waves[data-v-c3f9cb7a] {\n  position: fixed;\n  bottom: 0px;\n  width: 100%;\n  height: 15vh;\n  margin-bottom: -7px;\n  /*Fix for safari gap*/\n  min-height: 100px;\n  max-height: 150px;\n}\n.content[data-v-c3f9cb7a] {\n  position: relative;\n  height: 20vh;\n  text-align: center;\n  background-color: white;\n}\n\n/* Animation */\n.parallax > use[data-v-c3f9cb7a] {\n  -webkit-animation: move-forever-data-v-c3f9cb7a 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;\n          animation: move-forever-data-v-c3f9cb7a 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(1) {\n  -webkit-animation-delay: -2s;\n          animation-delay: -2s;\n  -webkit-animation-duration: 7s;\n          animation-duration: 7s;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(2) {\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(3) {\n  -webkit-animation-delay: -4s;\n          animation-delay: -4s;\n  -webkit-animation-duration: 13s;\n          animation-duration: 13s;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(4) {\n  -webkit-animation-delay: -5s;\n          animation-delay: -5s;\n  -webkit-animation-duration: 20s;\n          animation-duration: 20s;\n}\n@-webkit-keyframes move-forever-data-v-c3f9cb7a {\n0% {\n    transform: translate3d(-90px, 0, 0);\n}\n100% {\n    transform: translate3d(85px, 0, 0);\n}\n}\n@keyframes move-forever-data-v-c3f9cb7a {\n0% {\n    transform: translate3d(-90px, 0, 0);\n}\n100% {\n    transform: translate3d(85px, 0, 0);\n}\n}\n/*Shrinking for mobile*/\n@media (max-width: 768px) {\n.waves[data-v-c3f9cb7a] {\n    height: 40px;\n    min-height: 40px;\n}\n.content[data-v-c3f9cb7a] {\n    height: 30vh;\n}\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-c3f9cb7a] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.waves[data-v-c3f9cb7a] {\n  position: fixed;\n  bottom: 0px;\n  width: 100%;\n  height: 15vh;\n  margin-bottom: -7px;\n  /*Fix for safari gap*/\n  min-height: 100px;\n  max-height: 150px;\n  z-index: 0;\n}\n\n/* Animation */\n.parallax > use[data-v-c3f9cb7a] {\n  -webkit-animation: move-forever-data-v-c3f9cb7a 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;\n          animation: move-forever-data-v-c3f9cb7a 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(1) {\n  -webkit-animation-delay: -2s;\n          animation-delay: -2s;\n  -webkit-animation-duration: 7s;\n          animation-duration: 7s;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(2) {\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(3) {\n  -webkit-animation-delay: -4s;\n          animation-delay: -4s;\n  -webkit-animation-duration: 13s;\n          animation-duration: 13s;\n}\n.parallax > use[data-v-c3f9cb7a]:nth-child(4) {\n  -webkit-animation-delay: -5s;\n          animation-delay: -5s;\n  -webkit-animation-duration: 20s;\n          animation-duration: 20s;\n}\n@-webkit-keyframes move-forever-data-v-c3f9cb7a {\n0% {\n    transform: translate3d(-90px, 0, 0);\n}\n100% {\n    transform: translate3d(85px, 0, 0);\n}\n}\n@keyframes move-forever-data-v-c3f9cb7a {\n0% {\n    transform: translate3d(-90px, 0, 0);\n}\n100% {\n    transform: translate3d(85px, 0, 0);\n}\n}\n/*Shrinking for mobile*/\n@media (max-width: 768px) {\n.waves[data-v-c3f9cb7a] {\n    height: 40px;\n    min-height: 40px;\n}\n}", ""]);
 
 // exports
 
@@ -79791,108 +79881,261 @@ var render = function() {
       }),
       _vm._v(" "),
       _c(
-        "b-container",
-        {
-          staticClass: "content-padding animated bounceInDown bg-light",
-          attrs: { id: "cardContainer" }
-        },
+        "div",
+        { attrs: { id: "cardContainer" } },
         [
-          _c("div", { staticClass: "animated slideInRight delay-1s" }, [
-            _c(
-              "p",
-              {
-                staticClass:
-                  "dropShadow float-right animated rubberBand delay-5s",
-                attrs: { id: "cardToggle" },
-                on: { click: _vm.cardSwap }
-              },
-              [
-                _vm._v(
-                  "\n                " +
-                    _vm._s(_vm.cardToggleText) +
-                    "\n            "
+          _c(
+            "b-container",
+            { staticClass: "content-padding animated bounceInDown bg-light" },
+            [
+              _c("div", { staticClass: "animated slideInRight delay-1s" }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "dropShadow float-right animated rubberBand delay-5s",
+                    attrs: { id: "cardToggle" },
+                    on: { click: _vm.cardSwap }
+                  },
+                  [
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(_vm.cardToggleText) +
+                        "\n                "
+                    )
+                  ]
                 )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _vm.currentCard === "education"
-            ? _c("div", [
-                _c("h1", { staticClass: "animated delay-1s" }, [
-                  _vm._v("College Education")
-                ]),
-                _vm._v(" "),
-                _c("h3", [_vm._v("New Jersey Institute of Technology")]),
-                _vm._v(" "),
-                _c("h4", { staticClass: "degreeText" }, [
-                  _vm._v("Bachelors in Web Information Systems:")
-                ]),
-                _c("span", { staticClass: "smallText" }, [
-                  _vm._v("- summer 2018")
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                The Web and Information Systems program provides you with the practical skills and technical\n                understanding needed to design, implement, maintain and improve the functionality of websites for\n                large-scale organizations.\n                "
-                  ),
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href:
-                          "https://catalog.njit.edu/undergraduate/computing-sciences/information-systems/web-information-systems-bs/",
-                        target: "_blank"
-                      }
-                    },
-                    [
+              ]),
+              _vm._v(" "),
+              _vm.currentCard === "education"
+                ? _c("div", [
+                    _c("h1", { staticClass: "animated delay-1s" }, [
+                      _vm._v("College Education")
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("New Jersey Institute of Technology")]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "degreeText" }, [
+                      _vm._v("Bachelors in Web Information Systems:")
+                    ]),
+                    _c("span", { staticClass: "smallText" }, [
+                      _vm._v("- summer 2018")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
                       _vm._v(
-                        "\n                    (degree courses)\n                "
+                        "\n                    The Web and Information Systems program provides you with the practical skills and technical\n                    understanding needed to design, implement, maintain and improve the functionality of websites\n                    for\n                    large-scale organizations.\n                    "
+                      ),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href:
+                              "https://catalog.njit.edu/undergraduate/computing-sciences/information-systems/web-information-systems-bs/",
+                            target: "_blank"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        (degree courses)\n                    "
+                          )
+                        ]
                       )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "d-left", attrs: { id: "hr" } }),
-                _vm._v(" "),
-                _c("h3", { staticClass: "mt-2" }, [
-                  _vm._v("Passaic County Community College")
-                ]),
-                _vm._v(" "),
-                _c("h4", { staticClass: "degreeText" }, [
-                  _vm._v(
-                    "Associate in Applied Science - Web and Mobile Development"
-                  )
-                ]),
-                _c("span", { staticClass: "smallText" }, [
-                  _vm._v("- summer 2015")
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n                The Information Technology major is designed to provide students interested in beginning, changing,\n                or advancing technology careers with a broad-based background in all areas of Information\n                Technology.\n                IT majors with this option are qualified for positions as a Web Applications Developer, Web Support\n                Specialist, and Web Manager and Administrator. Students will be prepared to support computing in a\n                networked environment and also be able to transfer to selected institutions of higher learning.\n                "
-                  ),
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://catalog.pccc.edu/program/100/",
-                        target: "_blank"
-                      }
-                    },
-                    [
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "d-left", attrs: { id: "hr" } }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "mt-2" }, [
+                      _vm._v("Passaic County Community College")
+                    ]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "degreeText" }, [
                       _vm._v(
-                        "\n                    (degree courses)\n                "
+                        "Associate in Applied Science - Web and Mobile Development"
                       )
-                    ]
+                    ]),
+                    _c("span", { staticClass: "smallText" }, [
+                      _vm._v("- summer 2015")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                    The Information Technology major is designed to provide students interested in beginning,\n                    changing,\n                    or advancing technology careers with a broad-based background in all areas of Information\n                    Technology.\n                    IT majors with this option are qualified for positions as a Web Applications Developer, Web\n                    Support\n                    Specialist, and Web Manager and Administrator. Students will be prepared to support computing in\n                    a\n                    networked environment and also be able to transfer to selected institutions of higher learning.\n                    "
+                      ),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "https://catalog.pccc.edu/program/100/",
+                            target: "_blank"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        (degree courses)\n                    "
+                          )
+                        ]
+                      )
+                    ])
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.currentCard === "skills"
+                ? _c(
+                    "div",
+                    [
+                      _c("h1", [_vm._v("Acquired Skills")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "The progress skill bars listed below are self assesed. A full bar represents 100% understanding\n                    of a topic.\n                    Hover over the title of each skill to get an explanation."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        [
+                          _c(
+                            "b-col",
+                            [
+                              _c("h4", { staticClass: "mb-5" }, [
+                                _vm._v("Frontend")
+                              ]),
+                              _vm._v(" "),
+                              _vm._l(_vm.frontendSkills, function(skill) {
+                                return _c("div", [
+                                  _c(
+                                    "div",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "b-popover",
+                                          rawName: "v-b-popover.hover.top",
+                                          value: skill.description,
+                                          expression: "skill.description",
+                                          modifiers: { hover: true, top: true }
+                                        }
+                                      ],
+                                      staticClass: "skillLink",
+                                      attrs: { title: skill.name }
+                                    },
+                                    [
+                                      _c("p", [_vm._v(_vm._s(skill.name))]),
+                                      _vm._v(" "),
+                                      _c("b-progress", {
+                                        staticClass: "mb-3",
+                                        attrs: {
+                                          value: skill.value,
+                                          max: "100",
+                                          "show-value": ""
+                                        }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ])
+                              })
+                            ],
+                            2
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            [
+                              _c("h4", { staticClass: "mb-5" }, [
+                                _vm._v("Backend")
+                              ]),
+                              _vm._v(" "),
+                              _vm._l(_vm.backendSkills, function(skill) {
+                                return _c("div", [
+                                  _c(
+                                    "div",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "b-popover",
+                                          rawName: "v-b-popover.hover.top",
+                                          value: skill.description,
+                                          expression: "skill.description",
+                                          modifiers: { hover: true, top: true }
+                                        }
+                                      ],
+                                      staticClass: "skillLink",
+                                      attrs: { title: skill.name }
+                                    },
+                                    [
+                                      _c("p", [_vm._v(_vm._s(skill.name))]),
+                                      _vm._v(" "),
+                                      _c("b-progress", {
+                                        staticClass: "mb-3",
+                                        attrs: {
+                                          value: skill.value,
+                                          max: "100",
+                                          "show-value": ""
+                                        }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ])
+                              })
+                            ],
+                            2
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            [
+                              _c("h4", { staticClass: "mb-5" }, [
+                                _vm._v("Other")
+                              ]),
+                              _vm._v(" "),
+                              _vm._l(_vm.otherSkills, function(skill) {
+                                return _c("div", [
+                                  _c(
+                                    "div",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "b-popover",
+                                          rawName: "v-b-popover.hover.top",
+                                          value: skill.description,
+                                          expression: "skill.description",
+                                          modifiers: { hover: true, top: true }
+                                        }
+                                      ],
+                                      staticClass: "skillLink",
+                                      attrs: { title: skill.name }
+                                    },
+                                    [
+                                      _c("p", [_vm._v(_vm._s(skill.name))]),
+                                      _vm._v(" "),
+                                      _c("b-progress", {
+                                        attrs: {
+                                          value: skill.value,
+                                          max: "100",
+                                          "show-value": ""
+                                        }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ])
+                              })
+                            ],
+                            2
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
                   )
-                ])
-              ])
-            : _vm._e(),
-          _vm._v(" "),
-          _vm.currentCard === "skills"
-            ? _c("div", [_c("h1", [_vm._v("Acquired Skills")])])
-            : _vm._e()
-        ]
+                : _vm._e()
+            ]
+          )
+        ],
+        1
       )
     ],
     1

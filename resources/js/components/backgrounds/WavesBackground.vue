@@ -48,12 +48,7 @@
         /*Fix for safari gap*/
         min-height: 100px;
         max-height: 150px;
-    }
-    .content {
-        position: relative;
-        height: 20vh;
-        text-align: center;
-        background-color: white;
+        z-index: 0;
     }
     /* Animation */
     .parallax>use {
@@ -89,9 +84,7 @@
             height: 40px;
             min-height: 40px;
         }
-        .content {
-            height: 30vh;
-        }
+
     }
 
 </style>

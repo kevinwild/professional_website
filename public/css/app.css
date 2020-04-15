@@ -18612,6 +18612,10 @@ body {
   z-index: -1;
 }
 
+.aboveBackground {
+  z-index: 5;
+}
+
 a {
   font-weight: bolder;
   color: #6574cd;
