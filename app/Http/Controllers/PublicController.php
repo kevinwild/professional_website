@@ -6,6 +6,7 @@ use App\Http\Requests\ContactEmailRequest;
 use App\Mail\ContactEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Storage;
 
 class PublicController extends Controller
 {
@@ -23,5 +24,9 @@ class PublicController extends Controller
     {
         $postData = $request->validated();
         Mail::to(config('app.myEmail'))->send(new ContactEmail($postData));
+    }
+
+    public function downloadResume(){
+        return Storage::download('Kevin-Wildermuth-resume.docx');
     }
 }
