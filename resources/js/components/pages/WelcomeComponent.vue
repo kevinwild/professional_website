@@ -41,7 +41,7 @@
 </template>
 
 <script>
-    import WelcomeBackground from './backgrounds/SquaresBackground'
+    import WelcomeBackground from '../backgrounds/SquaresBackground'
     export default {
         mounted() {
             console.log('Component mounted.')
@@ -55,7 +55,7 @@
 
 
 <style lang="scss" scoped>
-    @import "../../sass/_variables.scss";
+    @import "../../../sass/variables";
 
     #welcomeProfile {
         border-radius: 125px;

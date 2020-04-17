@@ -77,11 +77,11 @@
 </template>
 
 <script>
-    import PublicStore from './stores/PublicStore.js'
+    import PublicStore from '../stores/PublicStore.js'
 
-    import ParticleBackground from "./backgrounds/ParticleBackground";
+    import ParticleBackground from "../backgrounds/ParticleBackground";
 
-    const axios = require('axios');
+    const axios = require('axios/index');
 
     export default {
 
@@ -150,7 +150,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "../../sass/_variables.scss";
+    @import "../../../sass/variables";
 
     #contactContainer {
         background-color: rgba(41, 43, 44, 0.85);

@@ -97,7 +97,7 @@
 </template>
 
 <script>
-    import WavesBackground from "./backgrounds/WavesBackground";
+    import WavesBackground from "../backgrounds/WavesBackground";
 
     export default {
         mounted() {

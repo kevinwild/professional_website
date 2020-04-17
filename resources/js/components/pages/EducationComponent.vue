@@ -97,7 +97,7 @@
 </template>
 
 <script>
-    import WavesBackground from "./backgrounds/WavesBackground";
+    import WavesBackground from "../backgrounds/WavesBackground";
 
     export default {
         mounted() {
@@ -258,7 +258,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "../../sass/_variables.scss";
+    @import "../../../sass/variables";
 
     #cardContainer {
         z-index: 3;

@@ -31,11 +31,11 @@ window.Vue = require('vue');
 
 //.. App component is top level holding vue router and navigation
 Vue.component('app-component', require('./components/AppComponent.vue').default);
-const welcome = Vue.component('welcome-component', require('./components/WelcomeComponent.vue').default);
-const education = Vue.component('education-component', require('./components/EducationComponent.vue').default);
-const projects = Vue.component('projects-component', require('./components/ProjectsComponent.vue').default);
-const resume = Vue.component('resume-component', require('./components/ResumeComponent.vue').default);
-const contact = Vue.component('contact-component', require('./components/ContactComponent.vue').default);
+const welcome = Vue.component('welcome-component', require('./components/pages/WelcomeComponent.vue').default);
+const education = Vue.component('education-component', require('./components/pages/EducationComponent.vue').default);
+const projects = Vue.component('projects-component', require('./components/pages/ProjectsComponent.vue').default);
+const resume = Vue.component('resume-component', require('./components/pages/ResumeComponent.vue').default);
+const contact = Vue.component('contact-component', require('./components/pages/ContactComponent.vue').default);
 
 //.. Backgrounds
 Vue.component('squares-background', require('./components/backgrounds/SquaresBackground.vue').default);

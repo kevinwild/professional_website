@@ -10,7 +10,7 @@
 </template>
 
 <script>
-    import NavComponent from './NavComponent';
+    import NavComponent from './shared/NavComponent';
     import LoadingComponent from './shared/LoadingComponent';
     import MessageComponent from './shared/MessageComponent';
 
