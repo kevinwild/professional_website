@@ -4,7 +4,7 @@
                           fill2="rgba(56, 193, 114,0.5)"
                           fill3="rgba(56, 193, 114,0.3)"
                           fill4="#38c172"></waves-background>
-        <b-button id="downloadResume" variant="outline-success">
+        <b-button id="downloadResume" @click="downloadResume" variant="outline-success">
             Download Resume <i class="fas fa-download"></i>
         </b-button>
 
@@ -87,7 +87,6 @@
                 </div>
 
 
-
             </b-container>
 
         </div>
@@ -98,6 +97,9 @@
 
 <script>
     import WavesBackground from "../backgrounds/WavesBackground";
+
+    const axios = require('axios/index');
+    import PublicStore from '../stores/PublicStore.js'
 
     export default {
         mounted() {
@@ -117,7 +119,7 @@
                             duration: 'August 2018 - Present',
                             tasks:
                                 [
-                                   'Develop and maintain varies web applications',
+                                    'Develop and maintain varies web applications',
                                     'Upgrade multiple PHP applications from version 5 to 7+',
                                     'Developed restful API for'
                                 ]
@@ -130,7 +132,7 @@
                             tasks:
                                 [
                                     'Work collaboratively with team members as a key member during development',
-                                   ' Create and strategize the database and software design',
+                                    ' Create and strategize the database and software design',
                                     'Develop API using service repository pattern',
                                 ]
                         },
@@ -186,7 +188,15 @@
                             location: 'Paterson, NJ',
                             graduation: 'Summer 2015',
                         }
-                    ]
+                    ],
+                psMethods: PublicStore.methods,
+                psData: PublicStore.data
+            }
+        },
+        methods: {
+            downloadResume() {
+                window.open("/api/resume/download", "_blank");
+
             }
         }
     }
@@ -199,7 +209,7 @@
         position: fixed;
         right: 0px;
         top: 70px;
-        z-index:2;
+        z-index: 2;
     }
 
     #resumeContainer {
@@ -226,6 +236,7 @@
     .white-background {
         background-color: white;
     }
+
     #profExpContainer {
         margin-left: 35px;
     }

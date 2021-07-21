@@ -21,5 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('contact', 'PublicController@contactEmail');
 
-
-Route::get('/resume/download', 'PublicController@resumeDownload');
+Route::get('/resume/download', 'PdfController@downloadResume');
