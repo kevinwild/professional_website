@@ -36,6 +36,7 @@ const education = Vue.component('education-component', require('./components/pag
 const projects = Vue.component('projects-component', require('./components/pages/ProjectsComponent.vue').default);
 const resume = Vue.component('resume-component', require('./components/pages/ResumeComponent.vue').default);
 const contact = Vue.component('contact-component', require('./components/pages/ContactComponent.vue').default);
+const home = Vue.component('home-component', require('./components/pages/admin/HomeComponent.vue').default);
 
 //.. Backgrounds
 Vue.component('squares-background', require('./components/backgrounds/SquaresBackground.vue').default);
@@ -50,7 +51,8 @@ const routes = [
     {path: '/education', component: education, name: 'education'},
     {path: '/projects', component: projects, name: 'projects'},
     {path: '/resume', component: resume, name: 'resume'},
-    {path: '/contact', component: contact, name: 'contact'}
+    {path: '/contact', component: contact, name: 'contact'},
+    {path: '/home', component: home, name: 'home'},
 
 ];
 

@@ -4,8 +4,8 @@
                           fill2="rgba(56, 193, 114,0.5)"
                           fill3="rgba(56, 193, 114,0.3)"
                           fill4="#38c172"></waves-background>
-        <b-button id="printResume" variant="outline-success">
-            Print Resume <i class="fas fa-print"></i>
+        <b-button id="downloadResume" variant="outline-success">
+            Download Resume <i class="fas fa-download"></i>
         </b-button>
 
 
@@ -194,7 +194,7 @@
 
 
 <style lang="scss" scoped>
-    #printResume {
+    #downloadResume {
         margin-right: 25px;
         position: fixed;
         right: 0px;

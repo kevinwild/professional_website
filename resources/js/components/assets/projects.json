@@ -1,10 +1,13 @@
 [
-  {
-    "company": "ProMarketMe INC.",
-    "description": "one desc"
-  },
-  {
-    "name": "two name",
-    "description": "two desc"
-  }
+    {
+        "type": "professional",
+        "name": "Internet Brands",
+        "description": ""
+    },
+    {
+        "type": "educational",
+        "name": "two desc",
+        "description": ""
+
+    }
 ]

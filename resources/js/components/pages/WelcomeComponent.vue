@@ -9,8 +9,7 @@
                     <h1 class="animated bounce delay-1s">Greetings!</h1>
                     <p class="text-light">
                         My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
-                        experimental
-                        playground!
+                        experimental playground!
                         I am a web application software engineer by day and tinkering a variety of different
                         <a href="/projects">tech hobbies by night. </a> My passion was not always in programming and
                         technology,
@@ -27,7 +26,7 @@
 
                 </b-col>
                 <b-col lg="3" class="text-center">
-                    <img src="storage/kevin-wildermuth-software-engineer.png"
+                    <img :src="{}"
                          class="img-fluid reg-shadow animated jackInTheBox delay-2s" id="welcomeProfile">
 
                 </b-col>
@@ -42,6 +41,7 @@
 
 <script>
     import WelcomeBackground from '../backgrounds/SquaresBackground'
+
     export default {
         mounted() {
             console.log('Component mounted.')
@@ -84,7 +84,8 @@
     p {
         font-size: 1.2em;
     }
-    h1{
+
+    h1 {
         color: white;
         display: inline-block;
         padding-bottom: 5px;

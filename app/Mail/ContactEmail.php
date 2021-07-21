@@ -24,7 +24,7 @@ class ContactEmail extends Mailable
      */
     public function build()
     {
-        return $this->from('admin@kevinwildermuth.com')
+        return $this->from('kevinwildermuth1@gmail.com')
             ->view('emails.contactForm', ['data' => $this->data]);
     }
 }

@@ -23,10 +23,12 @@
                         <i class="fas fa-user-graduate"></i>
                         Education
                     </b-nav-item>
+                    <!--
                     <b-nav-item :to="{ path: '/projects'}" :active='$route.name === "projects"' id="navProjects">
                         <i class="fas fa-code-branch"></i>
                         Projects
                     </b-nav-item>
+                    -->
 
                     <b-nav-item :to="{ path: '/resume'}" :active='$route.name === "resume"' id="navResume">
                         <i class="fas fa-file-alt"></i>

@@ -75,7 +75,7 @@
 
     @keyframes move {
         100% {
-            transform: translate3d(0, 0, 1px) rotate(360deg);
+            transform: translate3d(0, 0, 3px) rotate(360deg);
         }
     }
 </style>
