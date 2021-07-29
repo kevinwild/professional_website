@@ -15,8 +15,8 @@
 </head>
 <body>
 <div class="container">
-    <h1 class="text-center title">We are currently down for maintenance</h1>
-    <div class="text-center subtitle">We will be up in couple of hours. Thanks for patience</div>
+    <h1 class="text-center title">My Apologies, I had to put my site into Maintenance Mode </h1>
+    <div class="text-center subtitle">Email me at: kevinwildermuth1@gmail.com</div>
 </div>
 </body>
 </html>
