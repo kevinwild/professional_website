@@ -4,7 +4,7 @@
                           fill2="rgba(56, 193, 114,0.5)"
                           fill3="rgba(56, 193, 114,0.3)"
                           fill4="#38c172"></waves-background>
-        <b-button id="downloadResume" @click="downloadResume" variant="outline-success">
+        <b-button size="lg" id="downloadResume" @click="downloadResume" variant="outline-light">
             Download Resume <i class="fas fa-download"></i>
         </b-button>
 
@@ -14,8 +14,13 @@
             <b-container class="content-padding animated slideInBottom white-background">
                 <!-- Start Resume -->
                 <h3 class="text-center">Kevin Wildermuth</h3>
-                <p class="smallText text-center">Wayne, NJ 07470 | 973-910-8766 | KevinWildermuth1@gmail.com |
-                    www.KevinWildermuth.com</p>
+                <p class="smallText text-center">
+                    <a href="https://www.google.com/maps/place/Wayne,+NJ+07470/@40.9484458,-74.3124033,12z/data=!3m1!4b1!4m5!3m4!1s0x89c30260113c84d3:0xe654539a1cb20344!8m2!3d40.9253725!4d-74.2765441"
+                       target="_blank"> Wayne, NJ 07470 </a>|
+                    <a href="tel:9739108766">973-910-8766</a>  |
+                    <a href="mailto:kevinwildermuth1@gmail.com">KevinWildermuth1@gmail.com</a> |
+                    <a href="/"> www.KevinWildermuth.com </a>
+                </p>
                 <p><span class="font-weight-bolder largeText">Objective:</span>
                     Skilled Full-Stack Web Developer aspiring for challenging opportunities in a growth-oriented
                     environment,
@@ -30,10 +35,10 @@
                                 <li>PHP: Laravel, REST API, Service and Repository Pattern</li>
                                 <li>HTML: Semantic</li>
                                 <li>CSS: Bootstrap, Flexbox</li>
-                                <li>JavaScript: JQuery, Angular, React (Native), Node</li>
-                                <li>CMS: WordPress</li>
+                                <li>JavaScript: JQuery, Vue.js, Angular, React (Native), Node</li>
+                                <li>CMS: WordPress, October</li>
                                 <li>Redux: Paired with React Native</li>
-                                <li>Python: Data crunching, web scraping (beautifulSoup)</li>
+                                <li>Python: Automation, Data crunching, web scraping (beautifulSoup)</li>
                                 <li>Java and C++: Academic hands-on experience</li>
                                 <li>Package Management: NPM, Composer</li>
                                 <li>Search Algorithms</li>

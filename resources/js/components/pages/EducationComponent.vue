@@ -1,4 +1,4 @@
-<template>
+_<template>
     <div>
         <waves-background fill1="rgba(149, 97, 226,0.7"
                           fill2="rgba(149, 97, 226,0.5)"

@@ -26,7 +26,7 @@
 
                 </b-col>
                 <b-col lg="3" class="text-center">
-                    <img :src="{}"
+                    <img :src="'/storage/kevin-wildermuth-headshot.jpeg'"
                          class="img-fluid reg-shadow animated jackInTheBox delay-2s" id="welcomeProfile">
 
                 </b-col>
