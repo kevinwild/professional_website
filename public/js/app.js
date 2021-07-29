@@ -2612,6 +2612,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.js");
@@ -81076,7 +81081,7 @@ var render = function() {
       _c(
         "b-button",
         {
-          attrs: { id: "downloadResume", variant: "outline-success" },
+          attrs: { size: "lg", id: "downloadResume", variant: "outline-light" },
           on: { click: _vm.downloadResume }
         },
         [
@@ -81101,9 +81106,31 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("p", { staticClass: "smallText text-center" }, [
-                _vm._v(
-                  "Wayne, NJ 07470 | 973-910-8766 | KevinWildermuth1@gmail.com |\n                www.KevinWildermuth.com"
-                )
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://www.google.com/maps/place/Wayne,+NJ+07470/@40.9484458,-74.3124033,12z/data=!3m1!4b1!4m5!3m4!1s0x89c30260113c84d3:0xe654539a1cb20344!8m2!3d40.9253725!4d-74.2765441",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v(" Wayne, NJ 07470 ")]
+                ),
+                _vm._v("|\n                "),
+                _c("a", { attrs: { href: "tel:9739108766" } }, [
+                  _vm._v("973-910-8766")
+                ]),
+                _vm._v("  |\n                "),
+                _c(
+                  "a",
+                  { attrs: { href: "mailto:kevinwildermuth1@gmail.com" } },
+                  [_vm._v("KevinWildermuth1@gmail.com")]
+                ),
+                _vm._v(" |\n                "),
+                _c("a", { attrs: { href: "/" } }, [
+                  _vm._v(" www.KevinWildermuth.com ")
+                ])
               ]),
               _vm._v(" "),
               _c("p", [
@@ -81141,17 +81168,17 @@ var render = function() {
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "JavaScript: JQuery, Angular, React (Native), Node"
+                            "JavaScript: JQuery, Vue.js, Angular, React (Native), Node"
                           )
                         ]),
                         _vm._v(" "),
-                        _c("li", [_vm._v("CMS: WordPress")]),
+                        _c("li", [_vm._v("CMS: WordPress, October")]),
                         _vm._v(" "),
                         _c("li", [_vm._v("Redux: Paired with React Native")]),
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "Python: Data crunching, web scraping (beautifulSoup)"
+                            "Python: Automation, Data crunching, web scraping (beautifulSoup)"
                           )
                         ]),
                         _vm._v(" "),
@@ -81351,7 +81378,10 @@ var render = function() {
                 _c("img", {
                   staticClass:
                     "img-fluid reg-shadow animated jackInTheBox delay-2s",
-                  attrs: { src: {}, id: "welcomeProfile" }
+                  attrs: {
+                    src: "/storage/kevin-wildermuth-headshot.jpeg",
+                    id: "welcomeProfile"
+                  }
                 })
               ])
             ],
