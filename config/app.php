@@ -26,7 +26,7 @@ return [
   |
   */
 
-    'myEmail' => env('MY_EMAIL', 'test@test.com'),
+    'myEmail' => env('MY_EMAIL', 'kevinwildermuth1@gmail.com'),
 
 
     /*
