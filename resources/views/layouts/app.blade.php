@@ -7,6 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('storage/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('storage/favicon-large.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('storage/favicon-small.png') }}">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
