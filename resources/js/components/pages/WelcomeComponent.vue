@@ -8,20 +8,28 @@
                 <b-col lg="8">
                     <h1 class="animated bounce delay-1s">Greetings!</h1>
                     <p class="text-light">
-                        My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
-                        experimental playground!
-                        I am a web application software engineer by day and tinkering a variety of different
-                        <a href="/projects">tech hobbies by night. </a> My passion was not always in programming and
-                        technology,
-                        From the age 13, I began creating advertisements for lawn maintenance and small house hold
-                        projects.
-                        I
-                        continued this through my schooling which has taught me entrepreneurship, people skills and
-                        discipline.
-                        At age 21 I began to learn the basics of developing websites, after launching my first
-                        website,
+                        &nbsp; &nbsp; My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
+                        experimental playground! I currently am employed as a software engineer specifically developing
+                        web applications. My passion was not always programming and technology.
+                        At an early age of 13, I began creating advertisements and walking door to door in an attempt
+                        to generate money by completing landscaping and small house hold projects. Quite successful I continued
+                        this throughout my academic years. Growing up I kept busy with a variety of activities
+                        such as: skateboarding, snowboarding, playing guitar and engaging in sports.
+                         <br><br>
+                        &nbsp; &nbsp; After high school, my friend and I came up with an idea for a website that involved
+                        the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based
+                        on geographical location. With no prior experience, I began teaching myself website development,
+                        and within a few weeks completed our vision. I admit the site was not pretty, it was comprised
+                        of structural tables and hard codded madness, but seeing our idea live on the internet was the
+                        moment I knew web development became my passion. This inspired me to pursue a degree in
+                        web information systems at the New Jersey Institute of Technology. Currently, I spend a large
+                        portion of my free time reading about new technologies and working on various side projects.
 
-
+                        <br><br>
+                        Thank you for taking the time to learn about me and if you want to connect feel free to
+                        <b-link href="/contact">
+                            contact me.
+                        </b-link>
                     </p>
 
                 </b-col>

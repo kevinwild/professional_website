@@ -242,11 +242,11 @@ _<template>
                 switch (this.currentCard) {
                     case 'skills':
                         this.currentCard = 'education';
-                        this.cardToggleText = 'View my college education';
+                        this.cardToggleText = 'Check out my career skills';
                         break;
                     case 'education':
                         this.currentCard = 'skills';
-                        this.cardToggleText = 'Check out my career skills';
+                        this.cardToggleText = 'View my college education';
                         break;
                     default:
                         this.currentCard = 'education';
