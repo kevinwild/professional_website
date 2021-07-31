@@ -1,7 +1,7 @@
 <template>
     <div>
         <b-navbar fixed="top" toggleable="lg" type="dark" variant="dark" id="navbar">
-            <b-navbar-brand href="#">
+            <b-navbar-brand href="/">
                 Kevin Wildermuth -
                 <transition name="slide-fade">
                     <small><em> {{ loopNames[0] }} </em></small>

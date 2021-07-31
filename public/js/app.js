@@ -81631,7 +81631,7 @@ var render = function() {
         [
           _c(
             "b-navbar-brand",
-            { attrs: { href: "#" } },
+            { attrs: { href: "/" } },
             [
               _vm._v("\n            Kevin Wildermuth -\n            "),
               _c("transition", { attrs: { name: "slide-fade" } }, [
