@@ -4,9 +4,14 @@
                           fill2="rgba(56, 193, 114,0.5)"
                           fill3="rgba(56, 193, 114,0.3)"
                           fill4="#38c172"></waves-background>
-        <b-button size="lg" id="downloadResume" @click="downloadResume" variant="outline-light">
+        <b-button size="lg" @click="downloadResume" variant="outline-light">
             Download Resume <i class="fas fa-download"></i>
         </b-button>
+        <b-dropdown id="downloadResume"  text="Download Resume" class="m-md-2" variant="outline-light">
+            <b-dropdown-item @click="downloadResume('docx')">.docx</b-dropdown-item>
+            <b-dropdown-item @click="downloadResume('pdf')">.pdf</b-dropdown-item>
+            <b-dropdown-item @click="downloadResume('txt')">.txt</b-dropdown-item>
+        </b-dropdown>
 
 
         <div id="resumeContainer">
@@ -199,8 +204,18 @@
             }
         },
         methods: {
-            downloadResume() {
-                window.open("/api/resume/download", "_blank");
+            downloadResume(pdf_type) {
+                switch(pdf_type) {
+                    case '.pdf':
+                        window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
+                        break;
+                    case 'txt':
+                        window.open("/storage/Kevin-Wildermuth-Resume.txt", "_blank");
+                        break;
+                    default:
+                        window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
+
+                }
 
             }
         }

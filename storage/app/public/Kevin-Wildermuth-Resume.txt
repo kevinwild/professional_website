@@ -1,0 +1,85 @@
+﻿Kevin Wildermuth
+----------------
+Wayne, NJ 07470|973-910-8766|KevinWildermuth1@gmail.com|www.KevinWildermuth.com
+________________
+
+
+Objective: Skilled Software Engineer aspiring for challenging opportunities in a growth-oriented environment, where my skills, enthusiasm and innovative thinking can be utilized.
+Technical Skills
+Programming Technologies:
+   * PHP: Laravel, Lumen, REST API, Backend Web Development
+   * Python:  Web Mining, Task Automation, Data Manipulation
+   * JavaScript: Vue, Angular, Node, React Native, jQuery
+   * Databases: MySQL, Postgres, SQlite, MongoDB
+   * HTML: Semantic, blade/twig templating
+   * CSS: SCSS, Bootstrap, Flexbox
+   * CMS: WordPress, October
+   * Package Management: NPM, Composer, Pip
+   * Object Oriented Design
+   * Java and C++: Academic hands-on experience
+
+
+Project Management:
+   * Team Collaboration: Daily Standups, Code Reviews
+   * Docker: Compose, T raefik
+   * Version Control: Git, Git Flow
+   * Support: Technical Documentation, Employee Training
+   * Test Driven Development
+
+
+Software Usage:
+   * Adobe Creative Suite: Fireworks, Illustrator, Photoshop
+   * Microsoft Suite: Office365, Word, PowerPoint, Excel
+   * G Suite: Dialog Flow, Sheets, Docs, Forms and Slides
+   * Atlassian: Jira, Confluence
+   * Other: Lucid Charts, Tableau
+
+
+
+
+
+
+Professional Experience
+        Internet Brands - El Segundo, CA                                        August 2018 – Present
+        Software Engineer
+* Architect, develop and test  new applications
+* Develop various ad hoc software to help internal business operations
+* Add features, debug issues, and test complex high traffic software
+* Assist developers and engineers in resolving key issues
+* Work closely with team members to outline solutions to improve the architecture of the existing systems
+* Resolve compatibility issues with software upgrades
+* Effectively managed individual priorities and deadlines
+* Collaborate with multiple teams such as Product, Design, and offshore developers to maintain high traffic enterprise applications, improve critical infrastructure and maintain production support tickets
+* Languages I have used here: PHP, Laravel, Python,  Vue.js, Node.js,  Angular.js, jQuery, Docker.
+
+
+        Pro Market Me INC. - Fort Myers, FL.                                March 2014 – Present
+        President and Lead Website Developer
+   * Develop and maintain various small business websites by defining their business requirements and implementing their vision from concept through to completion.
+   * Extensive WordPress configuration tailored to specific business needs
+   * Mobile UI experience enhancement
+   * Search Engine Optimization research and implementation
+   * Creation of website Illustrations, logos, online and print advertisements
+
+
+UCEDA- Paterson, NJ                                                   June 2015 – 2021
+IT Project Manager and Digital Marketing
+   * Maintain & update multiple websites (75k+ users monthly)
+   * Develop custom web applications to improve business operations
+   * Effectively research technologies and implement technical solutions to solve business needs and requirements.
+   * Business migration to use Office365
+   * Train staff on new technologies introduced to the business
+   * Assist and collaborate with the Director of Marketing to help implement new strategies for the company's ongoing email campaigns, video and image advertisements, website page design, and identify new marketing methods to capture existing and new clients
+   * Query database for data analysis using MySQL
+   * Determine new options to improve organic search engine ranking
+
+
+ Education
+        New Jersey Institute of Technology- Newark, NJ                        Summer 2018
+Bachelor of Science, Web Information Systems
+   * 3.7 GPA
+   * Senior Capstone Project: Upgraded NJIT’s live parking application as a competitive project choice and received a letter of recommendation from the head department of technology.
+      * Placed first for the midterm and third overall out of 18 teams.
+   * Developed python web scraper to calculate support and confidence towards the occurrence of words that relate to a specific topic. The crawler used the website Wikipedia for its data retrieving 500 relative pages.
+Passaic County Community College- Paterson, NJ                      Summer 2015
+Associate of Applied Science, IT Web Design Options

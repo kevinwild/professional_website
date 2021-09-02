@@ -2616,6 +2616,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.js");
@@ -2672,8 +2677,19 @@ var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.j
     };
   },
   methods: {
-    downloadResume: function downloadResume() {
-      window.open("/api/resume/download", "_blank");
+    downloadResume: function downloadResume(pdf_type) {
+      switch (pdf_type) {
+        case '.pdf':
+          window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
+          break;
+
+        case 'txt':
+          window.open("/storage/Kevin-Wildermuth-Resume.txt", "_blank");
+          break;
+
+        default:
+          window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
+      }
     }
   }
 });
@@ -81104,13 +81120,63 @@ var render = function() {
       _c(
         "b-button",
         {
-          attrs: { size: "lg", id: "downloadResume", variant: "outline-light" },
+          attrs: { size: "lg", variant: "outline-light" },
           on: { click: _vm.downloadResume }
         },
         [
           _vm._v("\n        Download Resume "),
           _c("i", { staticClass: "fas fa-download" })
         ]
+      ),
+      _vm._v(" "),
+      _c(
+        "b-dropdown",
+        {
+          staticClass: "m-md-2",
+          attrs: {
+            id: "downloadResume",
+            text: "Download Resume",
+            variant: "outline-light"
+          }
+        },
+        [
+          _c(
+            "b-dropdown-item",
+            {
+              on: {
+                click: function($event) {
+                  return _vm.downloadResume("docx")
+                }
+              }
+            },
+            [_vm._v(".docx")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-dropdown-item",
+            {
+              on: {
+                click: function($event) {
+                  return _vm.downloadResume("pdf")
+                }
+              }
+            },
+            [_vm._v(".pdf")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-dropdown-item",
+            {
+              on: {
+                click: function($event) {
+                  return _vm.downloadResume("txt")
+                }
+              }
+            },
+            [_vm._v(".txt")]
+          )
+        ],
+        1
       ),
       _vm._v(" "),
       _c(
