@@ -113,23 +113,25 @@ _<template>
                     {
                         name: 'HTML',
                         description: 'A scripting language that defines the layout a web page. I have a very clear ' +
-                            'understanding of HTML and how to create and parse it programmatically.',
+                            'understanding of HTML and how to create and parse it programmatically. I use templating engines' +
+                            ' such as: blade or twig to reduce code duplication and help organize larger web applications. ',
                         value: 95
                     },
                     {
-                        name: 'CSS',
+                        name: 'CSS / SCSS',
                         description: 'A style language for expressing the presentation of a structured document, such as ' +
                             'a web page. I am proficient in understanding and writing CSS, although not a master.' +
                             ' CSS can be very frustrating and while I enjoy tweaking complex animated sequences, the level' +
                             'of pure CSS creation is a mastery of art.',
-                        value: 85
+                        value: 80
                     },
                     {
                         name: 'JavaScript',
                         description: 'A scripting language that is interpreted by your browser to add functionality to ' +
-                            'a web page. I first learned vanilla JS when I began programming, now I prefer to use a ' +
-                            'framework instead, which is why I gave my self a lower score.',
-                        value: 70
+                            'a web page. I first learned vanilla JS when I began developing websites. I usually lean towards' +
+                            'using a framework primarily Vue.js. if given the opportunity. I rarely use vanilla javascript' +
+                            'at minimum I tent to include jQuery.',
+                        value: 50
                     },
                     {
                         name: 'Vue.js',
@@ -137,14 +139,16 @@ _<template>
                             'page applications (SPA). Vue.js is my preferred frontend framework that I mainly pair with a ' +
                             'Laravel backend API. I plan on trying Vue Native for mobile app development in the near ' +
                             'future',
-                        value: 75
+                        value: 70
                     },
                     {
                         name: 'React.js',
                         description: 'A JavaScript library for building user interfaces and single page applications ' +
                             '(SPA). I have only built some small testing projects in React and React Native. I am willing' +
-                            'to explore further but am not fond of JSX and tend to use Vue.js when optional. ',
-                        value: 40
+                            'to explore further but am not fond of JSX and tend to use Vue.js when given the choice. Although, ' +
+                            'for phone app development I do like the idea of one code base that compiles to both Android and IOS.' +
+                            ' I don\'t build phone apps much but when I do, I would use React. ',
+                        value: 20
                     },
 
                 ],
@@ -156,15 +160,9 @@ _<template>
                         description: 'A server side scripting language for building dynamic web pages. I began my career' +
                             'using vanilla procedural PHP. As my education advanced I began learning object oriented PHP,' +
                             ' frameworks and package management such as Composer. PHP is my preferred backend language to build' +
-                            'robust web applications.',
-                        value: 83
-                    },
-                    {
-                        name: 'Laravel',
-                        description: 'An MVC PHP framework used to build robust web application. Laravel is my favorite' +
-                            'framework to work in. I really enjoy building advance REST APIs. I am currently working as ' +
-                            'a Laravel Developer but tend to code in other languages as well.',
-                        value: 83
+                            'robust web applications and go to frame work is Laravel. I have built many projects using Laravel,' +
+                            'such as RESTful APIs or Robust Admin Panels.',
+                        value: 88
                     },
                     {
                         name: 'Node.js',
@@ -206,8 +204,8 @@ _<template>
                         name: 'Docker',
                         description: 'A Platform that performs OS-level vitalization to deliver software in isolated containers.' +
                             ' I think Docker is an amazing tool, I began using it as a local dev environment and then ' +
-                            '',
-                        value: 80
+                            ' on my production servers. This site is actually running on docker!',
+                        value: 60
                     },
                 ]
             }

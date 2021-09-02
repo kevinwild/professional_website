@@ -16,17 +16,25 @@
                         this throughout my academic years. Growing up I kept busy with a variety of activities
                         such as: skateboarding, snowboarding, playing guitar and engaging in sports.
                          <br><br>
-                        &nbsp; &nbsp; After high school, my friend and I came up with an idea for a website that involved
-                        the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based
+                        &nbsp; &nbsp; After high school, while working full time in a factory my friend and I came up with
+                        an idea for a website that involved the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based
                         on geographical location. With no prior experience, I began teaching myself website development,
                         and within a few weeks completed our vision. I admit the site was not pretty, it was comprised
-                        of structural tables and hard codded madness, but seeing our idea live on the internet was the
-                        moment I knew web development became my passion. This inspired me to pursue a degree in
-                        web information systems at the New Jersey Institute of Technology. Currently, I spend a large
-                        portion of my free time reading about new technologies and working on various side projects.
+                        of structural tables and hard codded spaghetti code, but witnessing our idea accessible on the public
+                        internet was the moment I became fascinated with developing software. This inspired me to study
+                        web development at my local community college then later pursuing a degree in web information systems at
+                        the <a href="https://catalog.njit.edu/undergraduate/computing-sciences/informatics/web-information-systems-bs/" target="_blank">New Jersey Institute of Technology</a>.
+                        During my adult education I continued my entrepreneur
+                        spirit and launched Pro Market Me INC. which was a website development and marketing company catering
+                        to small businesses. During this time I gained hands on experience working with paying clients while
+                        expanding my knowledge and skill set at school. Today, I am a full time software
+                        engineer at <a href="https://www.internetbrands.com/" target="_blank">Internet Brands</a>
+                        and enjoy spending a large portion of my free time learning about new technologies and working on
+                        various side projects.
 
                         <br><br>
-                        Thank you for taking the time to learn about me and if you want to connect feel free to
+                        Thank you for taking the time to learn about my journey into software engineering. If you would like
+                        to callobrate on a project, hire me at you company, or connect and perhaps be friends feel free to
                         <b-link href="/contact">
                             contact me.
                         </b-link>

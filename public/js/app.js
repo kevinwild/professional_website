@@ -2178,6 +2178,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 
 
@@ -2363,33 +2366,29 @@ __webpack_require__.r(__webpack_exports__);
       currentCard: 'education',
       frontendSkills: [{
         name: 'HTML',
-        description: 'A scripting language that defines the layout a web page. I have a very clear ' + 'understanding of HTML and how to create and parse it programmatically.',
+        description: 'A scripting language that defines the layout a web page. I have a very clear ' + 'understanding of HTML and how to create and parse it programmatically. I use templating engines' + ' such as: blade or twig to reduce code duplication and help organize larger web applications. ',
         value: 95
       }, {
-        name: 'CSS',
+        name: 'CSS / SCSS',
         description: 'A style language for expressing the presentation of a structured document, such as ' + 'a web page. I am proficient in understanding and writing CSS, although not a master.' + ' CSS can be very frustrating and while I enjoy tweaking complex animated sequences, the level' + 'of pure CSS creation is a mastery of art.',
-        value: 85
+        value: 80
       }, {
         name: 'JavaScript',
-        description: 'A scripting language that is interpreted by your browser to add functionality to ' + 'a web page. I first learned vanilla JS when I began programming, now I prefer to use a ' + 'framework instead, which is why I gave my self a lower score.',
-        value: 70
+        description: 'A scripting language that is interpreted by your browser to add functionality to ' + 'a web page. I first learned vanilla JS when I began developing websites. I usually lean towards' + 'using a framework primarily Vue.js. if given the opportunity. I rarely use vanilla javascript' + 'at minimum I tent to include jQuery.',
+        value: 50
       }, {
         name: 'Vue.js',
         description: 'A light weight JavaScript framework used to build user interfaces and single ' + 'page applications (SPA). Vue.js is my preferred frontend framework that I mainly pair with a ' + 'Laravel backend API. I plan on trying Vue Native for mobile app development in the near ' + 'future',
-        value: 75
+        value: 70
       }, {
         name: 'React.js',
-        description: 'A JavaScript library for building user interfaces and single page applications ' + '(SPA). I have only built some small testing projects in React and React Native. I am willing' + 'to explore further but am not fond of JSX and tend to use Vue.js when optional. ',
-        value: 40
+        description: 'A JavaScript library for building user interfaces and single page applications ' + '(SPA). I have only built some small testing projects in React and React Native. I am willing' + 'to explore further but am not fond of JSX and tend to use Vue.js when given the choice. Although, ' + 'for phone app development I do like the idea of one code base that compiles to both Android and IOS.' + ' I don\'t build phone apps much but when I do, I would use React. ',
+        value: 20
       }],
       backendSkills: [{
         name: 'PHP',
-        description: 'A server side scripting language for building dynamic web pages. I began my career' + 'using vanilla procedural PHP. As my education advanced I began learning object oriented PHP,' + ' frameworks and package management such as Composer. PHP is my preferred backend language to build' + 'robust web applications.',
-        value: 83
-      }, {
-        name: 'Laravel',
-        description: 'An MVC PHP framework used to build robust web application. Laravel is my favorite' + 'framework to work in. I really enjoy building advance REST APIs. I am currently working as ' + 'a Laravel Developer but tend to code in other languages as well.',
-        value: 83
+        description: 'A server side scripting language for building dynamic web pages. I began my career' + 'using vanilla procedural PHP. As my education advanced I began learning object oriented PHP,' + ' frameworks and package management such as Composer. PHP is my preferred backend language to build' + 'robust web applications and go to frame work is Laravel. I have built many projects using Laravel,' + 'such as RESTful APIs or Robust Admin Panels.',
+        value: 88
       }, {
         name: 'Node.js',
         description: 'JavaScript runtime environment that executes JavaScript outside of a web browser.' + ' I have done some projects in node but not many. One project I wrote was a web page screen shot' + ' tool. The program takes a seed of URLs, visits the website, scrolls to the bottom,' + ' takes a screen shot and resize the image for final viewing.',
@@ -2409,8 +2408,8 @@ __webpack_require__.r(__webpack_exports__);
         value: 80
       }, {
         name: 'Docker',
-        description: 'A Platform that performs OS-level vitalization to deliver software in isolated containers.' + ' I think Docker is an amazing tool, I began using it as a local dev environment and then ' + '',
-        value: 80
+        description: 'A Platform that performs OS-level vitalization to deliver software in isolated containers.' + ' I think Docker is an amazing tool, I began using it as a local dev environment and then ' + ' on my production servers. This site is actually running on docker!',
+        value: 60
       }]
     };
   },
@@ -2691,6 +2690,14 @@ var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.j
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _backgrounds_SquaresBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../backgrounds/SquaresBackground */ "./resources/js/components/backgrounds/SquaresBackground.vue");
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -47214,7 +47221,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 18%;\n  left: 16%;\n  -webkit-animation-duration: 22.4s;\n          animation-duration: 22.4s;\n  -webkit-animation-delay: -5.3s;\n          animation-delay: -5.3s;\n  transform-origin: 10vw -1vh;\n  box-shadow: 40vmin 0 5.4022044074vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 73%;\n  left: 3%;\n  -webkit-animation-duration: 21.3s;\n          animation-duration: 21.3s;\n  -webkit-animation-delay: -9.3s;\n          animation-delay: -9.3s;\n  transform-origin: 17vw -4vh;\n  box-shadow: 40vmin 0 5.3241895579vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 37%;\n  left: 24%;\n  -webkit-animation-duration: 24s;\n          animation-duration: 24s;\n  -webkit-animation-delay: -6.1s;\n          animation-delay: -6.1s;\n  transform-origin: 15vw -23vh;\n  box-shadow: 40vmin 0 12.7952242471vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 92%;\n  left: 94%;\n  -webkit-animation-duration: 24.5s;\n          animation-duration: 24.5s;\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n  transform-origin: -6vw 2vh;\n  box-shadow: -40vmin 0 14.2330801679vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 79%;\n  left: 18%;\n  -webkit-animation-duration: 25.1s;\n          animation-duration: 25.1s;\n  -webkit-animation-delay: -14.5s;\n          animation-delay: -14.5s;\n  transform-origin: 6vw 16vh;\n  box-shadow: 40vmin 0 13.5747117642vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 72%;\n  left: 8%;\n  -webkit-animation-duration: 22.3s;\n          animation-duration: 22.3s;\n  -webkit-animation-delay: -15.5s;\n          animation-delay: -15.5s;\n  transform-origin: -23vw 17vh;\n  box-shadow: -40vmin 0 10.4803101713vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 32%;\n  left: 43%;\n  -webkit-animation-duration: 23.8s;\n          animation-duration: 23.8s;\n  -webkit-animation-delay: -11.8s;\n          animation-delay: -11.8s;\n  transform-origin: 1vw 11vh;\n  box-shadow: 40vmin 0 14.5722445879vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 71%;\n  left: 33%;\n  -webkit-animation-duration: 24.6s;\n          animation-duration: 24.6s;\n  -webkit-animation-delay: -6.4s;\n          animation-delay: -6.4s;\n  transform-origin: -22vw 20vh;\n  box-shadow: 40vmin 0 6.7287013074vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 71%;\n  left: 25%;\n  -webkit-animation-duration: 25.4s;\n          animation-duration: 25.4s;\n  -webkit-animation-delay: -12.2s;\n          animation-delay: -12.2s;\n  transform-origin: -2vw 11vh;\n  box-shadow: 40vmin 0 8.0867308827vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 94%;\n  left: 13%;\n  -webkit-animation-duration: 25.8s;\n          animation-duration: 25.8s;\n  -webkit-animation-delay: -16s;\n          animation-delay: -16s;\n  transform-origin: 10vw 7vh;\n  box-shadow: 40vmin 0 11.786358968vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 6%;\n  left: 65%;\n  -webkit-animation-duration: 23s;\n          animation-duration: 23s;\n  -webkit-animation-delay: -12.5s;\n          animation-delay: -12.5s;\n  transform-origin: 7vw 1vh;\n  box-shadow: -40vmin 0 14.7384224469vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 51%;\n  left: 5%;\n  -webkit-animation-duration: 24.1s;\n          animation-duration: 24.1s;\n  -webkit-animation-delay: -13.3s;\n          animation-delay: -13.3s;\n  transform-origin: 6vw 6vh;\n  box-shadow: 40vmin 0 5.9697915275vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 100%;\n  left: 27%;\n  -webkit-animation-duration: 25.1s;\n          animation-duration: 25.1s;\n  -webkit-animation-delay: -15.6s;\n          animation-delay: -15.6s;\n  transform-origin: -1vw -11vh;\n  box-shadow: 40vmin 0 10.7257314713vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 80%;\n  left: 46%;\n  -webkit-animation-duration: 20.3s;\n          animation-duration: 20.3s;\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n  transform-origin: -19vw -12vh;\n  box-shadow: -40vmin 0 10.3791757525vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 18%;\n  left: 31%;\n  -webkit-animation-duration: 25.9s;\n          animation-duration: 25.9s;\n  -webkit-animation-delay: -8.1s;\n          animation-delay: -8.1s;\n  transform-origin: -23vw 13vh;\n  box-shadow: -40vmin 0 13.3463054047vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 30%;\n  left: 21%;\n  -webkit-animation-duration: 23.1s;\n          animation-duration: 23.1s;\n  -webkit-animation-delay: -1s;\n          animation-delay: -1s;\n  transform-origin: 11vw -7vh;\n  box-shadow: 40vmin 0 6.032316647vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 40%;\n  left: 71%;\n  -webkit-animation-duration: 21.6s;\n          animation-duration: 21.6s;\n  -webkit-animation-delay: -14.1s;\n          animation-delay: -14.1s;\n  transform-origin: -18vw -13vh;\n  box-shadow: -40vmin 0 5.1725603276vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 4%;\n  left: 76%;\n  -webkit-animation-duration: 24.4s;\n          animation-duration: 24.4s;\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n  transform-origin: 11vw -11vh;\n  box-shadow: -40vmin 0 14.8592055341vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 42%;\n  left: 94%;\n  -webkit-animation-duration: 21.7s;\n          animation-duration: 21.7s;\n  -webkit-animation-delay: -3.6s;\n          animation-delay: -3.6s;\n  transform-origin: 9vw 1vh;\n  box-shadow: 40vmin 0 11.1740347243vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 81%;\n  left: 11%;\n  -webkit-animation-duration: 22.7s;\n          animation-duration: 22.7s;\n  -webkit-animation-delay: -2.8s;\n          animation-delay: -2.8s;\n  transform-origin: -14vw -14vh;\n  box-shadow: -40vmin 0 11.5565045382vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 41%;\n  left: 21%;\n  -webkit-animation-duration: 22.6s;\n          animation-duration: 22.6s;\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  transform-origin: 12vw 1vh;\n  box-shadow: 40vmin 0 6.2384619212vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 13%;\n  left: 28%;\n  -webkit-animation-duration: 24.6s;\n          animation-duration: 24.6s;\n  -webkit-animation-delay: -14.7s;\n          animation-delay: -14.7s;\n  transform-origin: 17vw -19vh;\n  box-shadow: -40vmin 0 5.4199508464vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 30%;\n  left: 32%;\n  -webkit-animation-duration: 23.7s;\n          animation-duration: 23.7s;\n  -webkit-animation-delay: -10.6s;\n          animation-delay: -10.6s;\n  transform-origin: 21vw 22vh;\n  box-shadow: -40vmin 0 5.6092060141vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 67%;\n  left: 11%;\n  -webkit-animation-duration: 22.9s;\n          animation-duration: 22.9s;\n  -webkit-animation-delay: -6.2s;\n          animation-delay: -6.2s;\n  transform-origin: -13vw -8vh;\n  box-shadow: 40vmin 0 6.7109611952vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 21%;\n  left: 90%;\n  -webkit-animation-duration: 24.2s;\n          animation-duration: 24.2s;\n  -webkit-animation-delay: -11.5s;\n          animation-delay: -11.5s;\n  transform-origin: -1vw -18vh;\n  box-shadow: -40vmin 0 6.3017767343vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 87%;\n  left: 37%;\n  -webkit-animation-duration: 21.3s;\n          animation-duration: 21.3s;\n  -webkit-animation-delay: -10.8s;\n          animation-delay: -10.8s;\n  transform-origin: -12vw -23vh;\n  box-shadow: -40vmin 0 6.1589302398vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 36%;\n  left: 66%;\n  -webkit-animation-duration: 20.5s;\n          animation-duration: 20.5s;\n  -webkit-animation-delay: -9.5s;\n          animation-delay: -9.5s;\n  transform-origin: -3vw -16vh;\n  box-shadow: 40vmin 0 9.6984114876vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 60%;\n  left: 66%;\n  -webkit-animation-duration: 25.1s;\n          animation-duration: 25.1s;\n  -webkit-animation-delay: -6.1s;\n          animation-delay: -6.1s;\n  transform-origin: 0vw -14vh;\n  box-shadow: -40vmin 0 5.4487088467vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 79%;\n  left: 78%;\n  -webkit-animation-duration: 22.4s;\n          animation-duration: 22.4s;\n  -webkit-animation-delay: -7.3s;\n          animation-delay: -7.3s;\n  transform-origin: 13vw 10vh;\n  box-shadow: -40vmin 0 9.2947344665vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 52%;\n  left: 51%;\n  -webkit-animation-duration: 21.7s;\n          animation-duration: 21.7s;\n  -webkit-animation-delay: -3.2s;\n          animation-delay: -3.2s;\n  transform-origin: -1vw -19vh;\n  box-shadow: 40vmin 0 14.9821836755vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 76%;\n  left: 100%;\n  -webkit-animation-duration: 25.6s;\n          animation-duration: 25.6s;\n  -webkit-animation-delay: -5s;\n          animation-delay: -5s;\n  transform-origin: 17vw 9vh;\n  box-shadow: -40vmin 0 13.9838488227vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 82%;\n  left: 77%;\n  -webkit-animation-duration: 22.1s;\n          animation-duration: 22.1s;\n  -webkit-animation-delay: -1.2s;\n          animation-delay: -1.2s;\n  transform-origin: 6vw -12vh;\n  box-shadow: -40vmin 0 7.4997491881vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 49%;\n  left: 12%;\n  -webkit-animation-duration: 21.4s;\n          animation-duration: 21.4s;\n  -webkit-animation-delay: -8.8s;\n          animation-delay: -8.8s;\n  transform-origin: -7vw -3vh;\n  box-shadow: -40vmin 0 14.2758462785vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 9%;\n  left: 12%;\n  -webkit-animation-duration: 22.4s;\n          animation-duration: 22.4s;\n  -webkit-animation-delay: -13.9s;\n          animation-delay: -13.9s;\n  transform-origin: -16vw 3vh;\n  box-shadow: -40vmin 0 12.599281535vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 17%;\n  left: 44%;\n  -webkit-animation-duration: 21.2s;\n          animation-duration: 21.2s;\n  -webkit-animation-delay: -10s;\n          animation-delay: -10s;\n  transform-origin: -15vw -10vh;\n  box-shadow: 40vmin 0 7.7445748182vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 17%;\n  left: 69%;\n  -webkit-animation-duration: 25.3s;\n          animation-duration: 25.3s;\n  -webkit-animation-delay: -15.8s;\n          animation-delay: -15.8s;\n  transform-origin: 9vw 19vh;\n  box-shadow: -40vmin 0 6.8909266782vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 81%;\n  left: 65%;\n  -webkit-animation-duration: 21.5s;\n          animation-duration: 21.5s;\n  -webkit-animation-delay: -14.8s;\n          animation-delay: -14.8s;\n  transform-origin: 7vw -5vh;\n  box-shadow: -40vmin 0 9.1999991794vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 22%;\n  left: 49%;\n  -webkit-animation-duration: 20.7s;\n          animation-duration: 20.7s;\n  -webkit-animation-delay: -9.9s;\n          animation-delay: -9.9s;\n  transform-origin: -14vw 20vh;\n  box-shadow: 40vmin 0 8.9328285437vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 48%;\n  left: 51%;\n  -webkit-animation-duration: 21.5s;\n          animation-duration: 21.5s;\n  -webkit-animation-delay: -15.6s;\n          animation-delay: -15.6s;\n  transform-origin: -10vw 20vh;\n  box-shadow: -40vmin 0 5.8271118848vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 68%;\n  left: 92%;\n  -webkit-animation-duration: 20.5s;\n          animation-duration: 20.5s;\n  -webkit-animation-delay: -13.2s;\n          animation-delay: -13.2s;\n  transform-origin: -4vw 24vh;\n  box-shadow: 40vmin 0 11.2478745124vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}", ""]);
 
 // exports
 
@@ -47271,7 +47278,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-911d885a] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n#contactContainer[data-v-911d885a] {\n  background-color: rgba(41, 43, 44, 0.85);\n}\nh1[data-v-911d885a] {\n  color: #ffed4a;\n  display: inline-block;\n  margin-left: 0;\n  margin-right: 0;\n  padding-bottom: 5px;\n  position: relative;\n  border-bottom: 2px solid #ffed4a;\n}\ninput[data-v-911d885a], textarea[data-v-911d885a] {\n  background-color: black;\n  color: white;\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-911d885a] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n#contactContainer[data-v-911d885a] {\n  background-color: rgba(41, 43, 44, 0.85);\n}\nh1[data-v-911d885a] {\n  color: #ffed4a;\n  display: inline-block;\n  margin-left: 0;\n  margin-right: 0;\n  padding-bottom: 5px;\n  position: relative;\n  border-bottom: 2px solid #ffed4a;\n}\n.hr[data-v-911d885a] {\n  border-bottom: #ffed4a solid 1px;\n  display: block;\n  margin-top: 5px;\n  margin-bottom: 10px;\n}\ninput[data-v-911d885a], textarea[data-v-911d885a] {\n  background-color: black;\n  color: white;\n}", ""]);
 
 // exports
 
@@ -80504,12 +80511,20 @@ var render = function() {
         },
         [
           _c("div", { staticClass: "text-center" }, [
-            _c("h1", [_vm._v("Thanks for visiting")])
+            _c("h1", [_vm._v("Thanks for visiting")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Email is the best way to contact me ")])
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "text-center animated rubberBand delay-1s" }, [
             _vm._v("Have a question or want to work together?")
           ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-center animated rubberBand delay-3s" }, [
+            _vm._v("Please Submit the Form Below")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "hr" }),
           _vm._v(" "),
           _c(
             "b-form",
@@ -81379,12 +81394,39 @@ var render = function() {
                     _c("br"),
                     _c("br"),
                     _vm._v(
-                      "\n                        After high school, my friend and I came up with an idea for a website that involved\n                    the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based\n                    on geographical location. With no prior experience, I began teaching myself website development,\n                    and within a few weeks completed our vision. I admit the site was not pretty, it was comprised\n                    of structural tables and hard codded madness, but seeing our idea live on the internet was the\n                    moment I knew web development became my passion. This inspired me to pursue a degree in\n                    web information systems at the New Jersey Institute of Technology. Currently, I spend a large\n                    portion of my free time reading about new technologies and working on various side projects.\n\n                    "
+                      "\n                        After high school, while working full time in a factory my friend and I came up with\n                    an idea for a website that involved the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based\n                    on geographical location. With no prior experience, I began teaching myself website development,\n                    and within a few weeks completed our vision. I admit the site was not pretty, it was comprised\n                    of structural tables and hard codded spaghetti code, but witnessing our idea accessible on the public\n                    internet was the moment I became fascinated with developing software. This inspired me to study\n                    web development at my local community college then later pursuing a degree in web information systems at\n                    the "
+                    ),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://catalog.njit.edu/undergraduate/computing-sciences/informatics/web-information-systems-bs/",
+                          target: "_blank"
+                        }
+                      },
+                      [_vm._v("New Jersey Institute of Technology")]
+                    ),
+                    _vm._v(
+                      ".\n                    During my adult education I continued my entrepreneur\n                    spirit and launched Pro Market Me INC. which was a website development and marketing company catering\n                    to small businesses. During this time I gained hands on experience working with paying clients while\n                    expanding my knowledge and skill set at school. Today, I am a full time software\n                    engineer at "
+                    ),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.internetbrands.com/",
+                          target: "_blank"
+                        }
+                      },
+                      [_vm._v("Internet Brands")]
+                    ),
+                    _vm._v(
+                      "\n                    and enjoy spending a large portion of my free time learning about new technologies and working on\n                    various side projects.\n\n                    "
                     ),
                     _c("br"),
                     _c("br"),
                     _vm._v(
-                      "\n                    Thank you for taking the time to learn about me and if you want to connect feel free to\n                    "
+                      "\n                    Thank you for taking the time to learn about my journey into software engineering. If you would like\n                    to callobrate on a project, hire me at you company, or connect and perhaps be friends feel free to\n                    "
                     ),
                     _c("b-link", { attrs: { href: "/contact" } }, [
                       _vm._v(

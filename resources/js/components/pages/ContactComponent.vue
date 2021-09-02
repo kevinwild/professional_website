@@ -4,8 +4,11 @@
         <b-container class="animated zoomIn content-padding reg-shadow text-light" id="contactContainer">
             <div class="text-center">
                 <h1>Thanks for visiting</h1>
+                <h3>Email is the best way to contact me </h3>
             </div>
             <p class="text-center animated rubberBand delay-1s">Have a question or want to work together?</p>
+            <p class="text-center animated rubberBand delay-3s">Please Submit the Form Below</p>
+            <div class="hr"></div>
             <b-form class="dark" @submit.prevent="onSubmit">
                 <b-row>
                     <b-col>
@@ -164,6 +167,14 @@
         padding-bottom: 5px;
         position: relative;
         border-bottom: 2px solid $yellow;
+    }
+
+    .hr {
+        border-bottom: $yellow solid 1px;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
     }
 
     input, textarea {
