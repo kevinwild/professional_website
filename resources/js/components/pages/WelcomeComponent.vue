@@ -8,33 +8,35 @@
                 <b-col lg="8">
                     <h1 class="animated bounce delay-1s">Greetings!</h1>
                     <p class="text-light">
-                        &nbsp; &nbsp; My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and
-                        experimental playground! I currently am employed as a software engineer specifically developing
-                        web applications. My passion was not always programming and technology.
-                        At an early age of 13, I began creating advertisements and walking door to door in an attempt
-                        to generate money by completing landscaping and small house hold projects. Quite successful I continued
-                        this throughout my academic years. Growing up I kept busy with a variety of activities
-                        such as: skateboarding, snowboarding, playing guitar and engaging in sports.
+                        &nbsp; &nbsp;  My name is Kevin Wildermuth. Welcome to my professional website, creativity
+                        outlet, and experimental playground! I currently am employed as a Software Engineer specializing
+                        in web application development. My passion was not always programming and technology. At an early
+                        age of 13, I began creating advertisements and walking door to door in an attempt to generate money
+                        by landscaping and performing small household projects. Quite successful, I continued this throughout
+                        my academic years. Growing up I kept busy with a variety of activities such as: skateboarding, snowboarding,
+                        playing guitar and engaging in sports.
                          <br><br>
-                        &nbsp; &nbsp; After high school, while working full time in a factory my friend and I came up with
-                        an idea for a website that involved the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based
-                        on geographical location. With no prior experience, I began teaching myself website development,
-                        and within a few weeks completed our vision. I admit the site was not pretty, it was comprised
-                        of structural tables and hard codded spaghetti code, but witnessing our idea accessible on the public
-                        internet was the moment I became fascinated with developing software. This inspired me to study
-                        web development at my local community college then later pursuing a degree in web information systems at
-                        the <a href="https://catalog.njit.edu/undergraduate/computing-sciences/informatics/web-information-systems-bs/" target="_blank">New Jersey Institute of Technology</a>.
-                        During my adult education I continued my entrepreneur
-                        spirit and launched Pro Market Me INC. which was a website development and marketing company catering
-                        to small businesses. During this time I gained hands on experience working with paying clients while
-                        expanding my knowledge and skill set at school. Today, I am a full time software
-                        engineer at <a href="https://www.internetbrands.com/" target="_blank">Internet Brands</a>
+                        &nbsp; &nbsp; After high school, while working full time in a factory my friend and I came up with an idea for
+                        a website that involved the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and
+                        categorizing content based on geographical location. With no prior experience, I began teaching myself
+                        website development, and within a few weeks completed our vision. I admit the site was not pretty,
+                        it was comprised of structural tables and spaghetti code, but witnessing our idea accessible on
+                        the public internet was the moment I became fascinated with developing software. This inspired
+                        me to study web development at my local community college then later pursuing a degree in web
+                        information systems at the
+                        <a href="https://catalog.njit.edu/undergraduate/computing-sciences/informatics/web-information-systems-bs/" target="_blank">
+                            New Jersey Institute of Technology </a>. During my adult education I continued my
+                        entrepreneur spirit and launched Pro Market Me INC. which was a website development and marketing company
+                        catering to small businesses. During this time, I gained hands on experience working with clients while
+                        expanding my knowledge and skill set at school. Today, I am a full-time Software Engineer at
+                        <a href="https://www.internetbrands.com/" target="_blank">Internet Brands </a>
                         and enjoy spending a large portion of my free time learning about new technologies and working on
                         various side projects.
 
+
                         <br><br>
-                        Thank you for taking the time to learn about my journey into software engineering. If you would like
-                        to callobrate on a project, hire me at you company, or connect and perhaps be friends feel free to
+                        Thank you for taking the time to learn about my journey into software engineering. If you would like to collaborate,
+                        please feel free to
                         <b-link href="/contact">
                             contact me.
                         </b-link>

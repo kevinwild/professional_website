@@ -37,34 +37,37 @@
                         <ul>
                             <li class="listTitle">Programming Technologies:</li>
                             <ul>
-                                <li>PHP: Laravel, REST API, Service and Repository Pattern</li>
-                                <li>HTML: Semantic</li>
-                                <li>CSS: Bootstrap, Flexbox</li>
-                                <li>JavaScript: JQuery, Vue.js, Angular, React (Native), Node</li>
+                                <li>PHP: Laravel, Lumen, REST API, Backend Web Development</li>
+                                <li>Python:  Web Mining, Task Automation, Data Manipulation</li>
+                                <li>JavaScript: Vue, Angular, Node, React Native, jQuery</li>
+                                <li>Databases: MySQL, Postgres, SQlite, MongoDB</li>
+                                <li>HTML: Semantic, blade/twig templating</li>
+                                <li>CSS: SCSS, Bootstrap, Flexbox</li>
                                 <li>CMS: WordPress, October</li>
-                                <li>Redux: Paired with React Native</li>
-                                <li>Python: Automation, Data crunching, web scraping (beautifulSoup)</li>
-                                <li>Java and C++: Academic hands-on experience</li>
-                                <li>Package Management: NPM, Composer</li>
-                                <li>Search Algorithms</li>
-                                <li>Data Structures</li>
+                                <li>Package Management: NPM, Composer, Pip</li>
                                 <li>Object Oriented Design</li>
+                                <li>Java and C++: Academic hands-on experience</li>
                             </ul>
                         </ul>
                     </b-col>
 
                     <b-col>
                         <ul>
-                            <li class="listTitle">Professional Skills:</li>
+                            <li class="listTitle">Project Management</li>
                             <ul>
-                                <li>Version Control: Git</li>
+                                <li>Team Collaboration: Daily Standups, Code Reviews</li>
+                                <li>Docker: Compose, Traefik</li>
+                                <li>Version Control: Git, Git Flow</li>
+                                <li>Support: Technical Documentation, Employee Training</li>
                                 <li>Test Driven Development</li>
-                                <li>Methodologies: Agile, SCRUM, SDLC, Trello, Kanban</li>
-                                <li>Adobe Creative Suite: Fireworks, Illustrator, Photoshop, Dreamweaver</li>
-                                <li>Microsoft Suite: Word, PowerPoint, Excel</li>
-                                <li>G Suite: Sheets, Docs, Forms and Slides</li>
-                                <li>Tableau</li>
-
+                            </ul>
+                            <li class="listTitle">Software Usage</li>
+                            <ul>
+                                <li>Adobe Creative Suite: Fireworks, Illustrator, Photoshop</li>
+                                <li>Microsoft Suite: Office365, Word, PowerPoint, Excel</li>
+                                <li>G Suite: Dialog Flow, Sheets, Docs, Forms and Slides</li>
+                                <li>Atlassian: Jira, Confluence</li>
+                                <li>Other: Lucid Charts, Tableau</li>
                             </ul>
                         </ul>
                     </b-col>
@@ -129,21 +132,15 @@
                             duration: 'August 2018 - Present',
                             tasks:
                                 [
-                                    'Develop and maintain varies web applications',
-                                    'Upgrade multiple PHP applications from version 5 to 7+',
-                                    'Developed restful API for'
-                                ]
-                        },
-                        {
-                            company: 'Learana',
-                            title: 'Backend Laravel Developer',
-                            location: 'Wilmington, DE.',
-                            duration: 'June 2018 - August 2018',
-                            tasks:
-                                [
-                                    'Work collaboratively with team members as a key member during development',
-                                    ' Create and strategize the database and software design',
-                                    'Develop API using service repository pattern',
+                                    "Architect, develop and test new applications",
+                                    "Develop various ad hoc software to help internal business operations",
+                                    "Add features, debug issues, and test complex high traffic software",
+                                    "Assist developers and engineers in resolving key issues",
+                                    "Work closely with team members to outline solutions to improve the architecture of the existing systems",
+                                    "Resolve compatibility issues with software upgrades",
+                                    "Effectively manage individual priorities and deadlines",
+                                    "Collaborate with multiple teams such as Product, Design, and offshore developers to maintain high traffic enterprise applications, improve critical infrastructure, and maintain production support tickets",
+                                    "Primary utilized languages: PHP, Laravel, Python,  Vue.js, Node.js,  Angular.js, jQuery, Docker"
                                 ]
                         },
                         {
@@ -153,9 +150,12 @@
                             duration: 'August 2018 - Present',
                             tasks:
                                 [
-                                    'Develop and maintain varies web applications',
-                                    'Upgrade multiple PHP applications from version 5 to 7+',
-                                    'Developed restful API for'
+                                    "Develop and maintain various small business websites by defining their business requirements and implementing their vision from concept through to completion",
+                                    "Extensive WordPress configuration tailored to specific business needs",
+                                    "Mobile UI experience enhancement",
+                                    "Search Engine Optimization research and implementation",
+                                    "Creation of website Illustrations, logos, online and print advertisements"
+
                                 ]
                         },
                         {
@@ -165,10 +165,16 @@
                             duration: 'June 2015 - Present',
                             tasks:
                                 [
-                                    'Develop and maintain varies web applications',
-                                    'Upgrade multiple PHP applications from version 5 to 7+',
-                                    'Developed restful API for'
-                                ]
+                                    "Maintain and update multiple websites (75k+ users monthly)"
+                                    "Develop custom web applications to improve business operations"
+                                    "Effectively research technologies and implement technical solutions to solve business needs and requirements"
+                                    "Business migration to use Office 365"
+                                    "Train staff on new technologies introduced to the business"
+                                    "Assist and collaborate with the Director of Marketing to help implement new strategies for the company's ongoing email campaigns, video, and image advertisements, website page design, and identify new marketing methods to capture existing and new clients"
+                                    "Query database for data analysis using MySQL"
+                                    "Determine new options to improve organic search engine ranking"
+
+        ]
                         },
                     ],
                 educations:

@@ -2508,191 +2508,9 @@ var _assets_projects_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/ResumeComponent.vue?vue&type=script&lang=js& ***!
   \********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../backgrounds/WavesBackground */ "./resources/js/components/backgrounds/WavesBackground.vue");
-/* harmony import */ var _stores_PublicStore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stores/PublicStore.js */ "./resources/js/components/stores/PublicStore.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.js");
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  },
-  components: {
-    'waves-background': _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
-  data: function data() {
-    return {
-      profExps: [{
-        company: 'Internet Brands',
-        title: 'Software Engineer',
-        location: 'New Providence, NJ',
-        duration: 'August 2018 - Present',
-        tasks: ['Develop and maintain varies web applications', 'Upgrade multiple PHP applications from version 5 to 7+', 'Developed restful API for']
-      }, {
-        company: 'Learana',
-        title: 'Backend Laravel Developer',
-        location: 'Wilmington, DE.',
-        duration: 'June 2018 - August 2018',
-        tasks: ['Work collaboratively with team members as a key member during development', ' Create and strategize the database and software design', 'Develop API using service repository pattern']
-      }, {
-        company: 'Pro Market Me INC.',
-        title: 'President',
-        location: 'Fort Myers, FL.',
-        duration: 'August 2018 - Present',
-        tasks: ['Develop and maintain varies web applications', 'Upgrade multiple PHP applications from version 5 to 7+', 'Developed restful API for']
-      }, {
-        company: 'UCEDA',
-        title: 'Lead Web Developer',
-        location: 'Paterson, NJ.',
-        duration: 'June 2015 - Present',
-        tasks: ['Develop and maintain varies web applications', 'Upgrade multiple PHP applications from version 5 to 7+', 'Developed restful API for']
-      }],
-      educations: [{
-        name: 'New Jersey Institute of Technology',
-        degree: 'Bachlor of Science, Web Information Systems',
-        location: 'Newark, NJ',
-        graduation: 'Summer 2018',
-        details: ['3.7 GPA', 'Senior Capstone Project: Upgraded NJIT’s live parking application as a ' + 'competitive project choice and received a letter of recommendation from the ' + 'head department of technology. ', 'Developed a python web scraper to calculate support and confidence towards the ' + 'occurrence of words that relate to a specific topic. The crawler used the website ' + 'Wikipedia for its data retrieving 500 relative pages. ']
-      }, {
-        name: 'Passaic County Community College',
-        degree: 'Associate of Applied Science, IT Web Design Options',
-        location: 'Paterson, NJ',
-        graduation: 'Summer 2015'
-      }],
-      psMethods: _stores_PublicStore_js__WEBPACK_IMPORTED_MODULE_1__["default"].methods,
-      psData: _stores_PublicStore_js__WEBPACK_IMPORTED_MODULE_1__["default"].data
-    };
-  },
-  methods: {
-    downloadResume: function downloadResume(pdf_type) {
-      switch (pdf_type) {
-        case '.pdf':
-          window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
-          break;
-
-        case 'txt':
-          window.open("/storage/Kevin-Wildermuth-Resume.txt", "_blank");
-          break;
-
-        default:
-          window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
-      }
-    }
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/kevin/phpstormprojects/professional_website/resources/js/components/pages/ResumeComponent.vue: Unexpected token, expected \",\" (169:32)\n\n\u001b[0m \u001b[90m 167 | \u001b[39m                            [\u001b[0m\n\u001b[0m \u001b[90m 168 | \u001b[39m                                \u001b[32m\"Maintain and update multiple websites (75k+ users monthly)\"\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 169 | \u001b[39m                                \u001b[32m\"Develop custom web applications to improve business operations\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     | \u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 170 | \u001b[39m                                \u001b[32m\"Effectively research technologies and implement technical solutions to solve business needs and requirements\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 171 | \u001b[39m                                \u001b[32m\"Business migration to use Office 365\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 172 | \u001b[39m                                \u001b[32m\"Train staff on new technologies introduced to the business\"\u001b[39m\u001b[0m\n    at Parser._raise (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:742:17)\n    at Parser.raiseWithData (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:735:17)\n    at Parser.raise (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:729:17)\n    at Parser.unexpected (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:8757:16)\n    at Parser.expect (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:8743:28)\n    at Parser.parseExprList (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10680:14)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9969:32)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)\n    at Parser.parseMaybeUnary (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9582:21)\n    at Parser.parseExprOps (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9452:23)\n    at Parser.parseMaybeConditional (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9425:23)\n    at Parser.parseMaybeAssign (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9380:21)\n    at Parser.parseObjectProperty (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10512:101)\n    at Parser.parseObjPropValue (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10537:101)\n    at Parser.parseObjectMember (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10461:10)\n    at Parser.parseObj (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10374:25)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9995:28)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)\n    at Parser.parseMaybeUnary (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9582:21)\n    at Parser.parseExprOps (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9452:23)\n    at Parser.parseMaybeConditional (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9425:23)\n    at Parser.parseMaybeAssign (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9380:21)\n    at Parser.parseExprListItem (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10718:18)\n    at Parser.parseExprList (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10692:22)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9969:32)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)\n    at Parser.parseMaybeUnary (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9582:21)\n    at Parser.parseExprOps (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9452:23)\n    at Parser.parseMaybeConditional (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9425:23)\n    at Parser.parseMaybeAssign (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9380:21)\n    at Parser.parseObjectProperty (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10512:101)\n    at Parser.parseObjPropValue (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10537:101)\n    at Parser.parseObjectMember (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10461:10)\n    at Parser.parseObj (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10374:25)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9995:28)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)");
 
 /***/ }),
 
@@ -2706,6 +2524,8 @@ var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.j
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _backgrounds_SquaresBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../backgrounds/SquaresBackground */ "./resources/js/components/backgrounds/SquaresBackground.vue");
+//
+//
 //
 //
 //
@@ -47237,7 +47057,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 41%;\n  left: 21%;\n  -webkit-animation-duration: 22.6s;\n          animation-duration: 22.6s;\n  -webkit-animation-delay: -3s;\n          animation-delay: -3s;\n  transform-origin: 12vw 1vh;\n  box-shadow: 40vmin 0 6.2384619212vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 13%;\n  left: 28%;\n  -webkit-animation-duration: 24.6s;\n          animation-duration: 24.6s;\n  -webkit-animation-delay: -14.7s;\n          animation-delay: -14.7s;\n  transform-origin: 17vw -19vh;\n  box-shadow: -40vmin 0 5.4199508464vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 30%;\n  left: 32%;\n  -webkit-animation-duration: 23.7s;\n          animation-duration: 23.7s;\n  -webkit-animation-delay: -10.6s;\n          animation-delay: -10.6s;\n  transform-origin: 21vw 22vh;\n  box-shadow: -40vmin 0 5.6092060141vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 67%;\n  left: 11%;\n  -webkit-animation-duration: 22.9s;\n          animation-duration: 22.9s;\n  -webkit-animation-delay: -6.2s;\n          animation-delay: -6.2s;\n  transform-origin: -13vw -8vh;\n  box-shadow: 40vmin 0 6.7109611952vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 21%;\n  left: 90%;\n  -webkit-animation-duration: 24.2s;\n          animation-duration: 24.2s;\n  -webkit-animation-delay: -11.5s;\n          animation-delay: -11.5s;\n  transform-origin: -1vw -18vh;\n  box-shadow: -40vmin 0 6.3017767343vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 87%;\n  left: 37%;\n  -webkit-animation-duration: 21.3s;\n          animation-duration: 21.3s;\n  -webkit-animation-delay: -10.8s;\n          animation-delay: -10.8s;\n  transform-origin: -12vw -23vh;\n  box-shadow: -40vmin 0 6.1589302398vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 36%;\n  left: 66%;\n  -webkit-animation-duration: 20.5s;\n          animation-duration: 20.5s;\n  -webkit-animation-delay: -9.5s;\n          animation-delay: -9.5s;\n  transform-origin: -3vw -16vh;\n  box-shadow: 40vmin 0 9.6984114876vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 60%;\n  left: 66%;\n  -webkit-animation-duration: 25.1s;\n          animation-duration: 25.1s;\n  -webkit-animation-delay: -6.1s;\n          animation-delay: -6.1s;\n  transform-origin: 0vw -14vh;\n  box-shadow: -40vmin 0 5.4487088467vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 79%;\n  left: 78%;\n  -webkit-animation-duration: 22.4s;\n          animation-duration: 22.4s;\n  -webkit-animation-delay: -7.3s;\n          animation-delay: -7.3s;\n  transform-origin: 13vw 10vh;\n  box-shadow: -40vmin 0 9.2947344665vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 52%;\n  left: 51%;\n  -webkit-animation-duration: 21.7s;\n          animation-duration: 21.7s;\n  -webkit-animation-delay: -3.2s;\n          animation-delay: -3.2s;\n  transform-origin: -1vw -19vh;\n  box-shadow: 40vmin 0 14.9821836755vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 76%;\n  left: 100%;\n  -webkit-animation-duration: 25.6s;\n          animation-duration: 25.6s;\n  -webkit-animation-delay: -5s;\n          animation-delay: -5s;\n  transform-origin: 17vw 9vh;\n  box-shadow: -40vmin 0 13.9838488227vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 82%;\n  left: 77%;\n  -webkit-animation-duration: 22.1s;\n          animation-duration: 22.1s;\n  -webkit-animation-delay: -1.2s;\n          animation-delay: -1.2s;\n  transform-origin: 6vw -12vh;\n  box-shadow: -40vmin 0 7.4997491881vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 49%;\n  left: 12%;\n  -webkit-animation-duration: 21.4s;\n          animation-duration: 21.4s;\n  -webkit-animation-delay: -8.8s;\n          animation-delay: -8.8s;\n  transform-origin: -7vw -3vh;\n  box-shadow: -40vmin 0 14.2758462785vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 9%;\n  left: 12%;\n  -webkit-animation-duration: 22.4s;\n          animation-duration: 22.4s;\n  -webkit-animation-delay: -13.9s;\n          animation-delay: -13.9s;\n  transform-origin: -16vw 3vh;\n  box-shadow: -40vmin 0 12.599281535vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 17%;\n  left: 44%;\n  -webkit-animation-duration: 21.2s;\n          animation-duration: 21.2s;\n  -webkit-animation-delay: -10s;\n          animation-delay: -10s;\n  transform-origin: -15vw -10vh;\n  box-shadow: 40vmin 0 7.7445748182vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 17%;\n  left: 69%;\n  -webkit-animation-duration: 25.3s;\n          animation-duration: 25.3s;\n  -webkit-animation-delay: -15.8s;\n          animation-delay: -15.8s;\n  transform-origin: 9vw 19vh;\n  box-shadow: -40vmin 0 6.8909266782vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 81%;\n  left: 65%;\n  -webkit-animation-duration: 21.5s;\n          animation-duration: 21.5s;\n  -webkit-animation-delay: -14.8s;\n          animation-delay: -14.8s;\n  transform-origin: 7vw -5vh;\n  box-shadow: -40vmin 0 9.1999991794vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 22%;\n  left: 49%;\n  -webkit-animation-duration: 20.7s;\n          animation-duration: 20.7s;\n  -webkit-animation-delay: -9.9s;\n          animation-delay: -9.9s;\n  transform-origin: -14vw 20vh;\n  box-shadow: 40vmin 0 8.9328285437vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 48%;\n  left: 51%;\n  -webkit-animation-duration: 21.5s;\n          animation-duration: 21.5s;\n  -webkit-animation-delay: -15.6s;\n          animation-delay: -15.6s;\n  transform-origin: -10vw 20vh;\n  box-shadow: -40vmin 0 5.8271118848vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 68%;\n  left: 92%;\n  -webkit-animation-duration: 20.5s;\n          animation-duration: 20.5s;\n  -webkit-animation-delay: -13.2s;\n          animation-delay: -13.2s;\n  transform-origin: -4vw 24vh;\n  box-shadow: 40vmin 0 11.2478745124vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}", ""]);
+exports.push([module.i, ".reg-shadow[data-v-675bf7c9] {\n  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n}\n.background[data-v-675bf7c9] {\n  background: rgba(0, 0, 0, 0.71);\n}\n.background span[data-v-675bf7c9] {\n  width: 20vmin;\n  height: 20vmin;\n  border-radius: 20vmin;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  position: absolute;\n  -webkit-animation-name: move-data-v-675bf7c9;\n          animation-name: move-data-v-675bf7c9;\n  -webkit-animation-duration: 6s;\n          animation-duration: 6s;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n}\n.background span[data-v-675bf7c9]:nth-child(1) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 16%;\n  left: 75%;\n  -webkit-animation-duration: 24.1s;\n          animation-duration: 24.1s;\n  -webkit-animation-delay: -12.6s;\n          animation-delay: -12.6s;\n  transform-origin: 10vw 14vh;\n  box-shadow: 40vmin 0 10.5820247971vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(2) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 95%;\n  left: 52%;\n  -webkit-animation-duration: 24s;\n          animation-duration: 24s;\n  -webkit-animation-delay: -8.2s;\n          animation-delay: -8.2s;\n  transform-origin: 12vw -8vh;\n  box-shadow: 40vmin 0 7.37420895vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(3) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 64%;\n  left: 5%;\n  -webkit-animation-duration: 23.6s;\n          animation-duration: 23.6s;\n  -webkit-animation-delay: -9.7s;\n          animation-delay: -9.7s;\n  transform-origin: -4vw -10vh;\n  box-shadow: -40vmin 0 10.733512332vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(4) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 65%;\n  left: 98%;\n  -webkit-animation-duration: 24.6s;\n          animation-duration: 24.6s;\n  -webkit-animation-delay: -11.7s;\n          animation-delay: -11.7s;\n  transform-origin: 25vw -10vh;\n  box-shadow: -40vmin 0 7.0956081376vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(5) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 72%;\n  left: 36%;\n  -webkit-animation-duration: 20.4s;\n          animation-duration: 20.4s;\n  -webkit-animation-delay: -8s;\n          animation-delay: -8s;\n  transform-origin: -3vw 14vh;\n  box-shadow: 40vmin 0 8.1292903092vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(6) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 49%;\n  left: 26%;\n  -webkit-animation-duration: 20.7s;\n          animation-duration: 20.7s;\n  -webkit-animation-delay: -8.7s;\n          animation-delay: -8.7s;\n  transform-origin: 7vw 24vh;\n  box-shadow: -40vmin 0 10.3877174091vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(7) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 22%;\n  left: 47%;\n  -webkit-animation-duration: 23.4s;\n          animation-duration: 23.4s;\n  -webkit-animation-delay: -4.8s;\n          animation-delay: -4.8s;\n  transform-origin: -7vw 11vh;\n  box-shadow: -40vmin 0 10.1381461996vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(8) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 98%;\n  left: 13%;\n  -webkit-animation-duration: 24.4s;\n          animation-duration: 24.4s;\n  -webkit-animation-delay: -10s;\n          animation-delay: -10s;\n  transform-origin: 15vw -8vh;\n  box-shadow: 40vmin 0 6.4902767285vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(9) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 16%;\n  left: 16%;\n  -webkit-animation-duration: 21.9s;\n          animation-duration: 21.9s;\n  -webkit-animation-delay: -5.1s;\n          animation-delay: -5.1s;\n  transform-origin: 12vw -6vh;\n  box-shadow: 40vmin 0 10.7165137595vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(10) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 42%;\n  left: 42%;\n  -webkit-animation-duration: 21s;\n          animation-duration: 21s;\n  -webkit-animation-delay: -11.9s;\n          animation-delay: -11.9s;\n  transform-origin: -4vw 22vh;\n  box-shadow: 40vmin 0 11.8602504066vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(11) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 41%;\n  left: 46%;\n  -webkit-animation-duration: 24.5s;\n          animation-duration: 24.5s;\n  -webkit-animation-delay: -2.3s;\n          animation-delay: -2.3s;\n  transform-origin: -3vw -2vh;\n  box-shadow: 40vmin 0 7.6093511257vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(12) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 75%;\n  left: 35%;\n  -webkit-animation-duration: 25.3s;\n          animation-duration: 25.3s;\n  -webkit-animation-delay: -11.7s;\n          animation-delay: -11.7s;\n  transform-origin: 23vw 1vh;\n  box-shadow: 40vmin 0 11.9095847117vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(13) {\n  color: rgba(242, 221, 105, 0.5);\n  top: 23%;\n  left: 63%;\n  -webkit-animation-duration: 22.1s;\n          animation-duration: 22.1s;\n  -webkit-animation-delay: -5s;\n          animation-delay: -5s;\n  transform-origin: 9vw 23vh;\n  box-shadow: 40vmin 0 9.0182474163vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(14) {\n  color: rgba(242, 221, 105, 0.68);\n  top: 21%;\n  left: 8%;\n  -webkit-animation-duration: 20.3s;\n          animation-duration: 20.3s;\n  -webkit-animation-delay: -11.1s;\n          animation-delay: -11.1s;\n  transform-origin: 19vw -7vh;\n  box-shadow: 40vmin 0 13.7948720571vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(15) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 4%;\n  left: 44%;\n  -webkit-animation-duration: 22.3s;\n          animation-duration: 22.3s;\n  -webkit-animation-delay: -14.4s;\n          animation-delay: -14.4s;\n  transform-origin: -15vw -3vh;\n  box-shadow: 40vmin 0 12.4397514917vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(16) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 46%;\n  left: 3%;\n  -webkit-animation-duration: 24.7s;\n          animation-duration: 24.7s;\n  -webkit-animation-delay: -11s;\n          animation-delay: -11s;\n  transform-origin: 12vw 24vh;\n  box-shadow: 40vmin 0 12.7128986935vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(17) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 23%;\n  left: 64%;\n  -webkit-animation-duration: 24.9s;\n          animation-duration: 24.9s;\n  -webkit-animation-delay: -7s;\n          animation-delay: -7s;\n  transform-origin: 24vw 5vh;\n  box-shadow: -40vmin 0 10.9934377443vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(18) {\n  color: rgba(253, 255, 94, 0.69);\n  top: 31%;\n  left: 38%;\n  -webkit-animation-duration: 25.3s;\n          animation-duration: 25.3s;\n  -webkit-animation-delay: -12.4s;\n          animation-delay: -12.4s;\n  transform-origin: -23vw 21vh;\n  box-shadow: 40vmin 0 14.1881597306vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(19) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 36%;\n  left: 68%;\n  -webkit-animation-duration: 20.2s;\n          animation-duration: 20.2s;\n  -webkit-animation-delay: -12.8s;\n          animation-delay: -12.8s;\n  transform-origin: 12vw -8vh;\n  box-shadow: 40vmin 0 5.9358918418vmin currentColor;\n}\n.background span[data-v-675bf7c9]:nth-child(20) {\n  color: rgba(253, 255, 94, 0.4);\n  top: 34%;\n  left: 64%;\n  -webkit-animation-duration: 25.4s;\n          animation-duration: 25.4s;\n  -webkit-animation-delay: -11s;\n          animation-delay: -11s;\n  transform-origin: 21vw 22vh;\n  box-shadow: 40vmin 0 13.4427677045vmin currentColor;\n}\n@-webkit-keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}\n@keyframes move-data-v-675bf7c9 {\n100% {\n    transform: translate3d(0, 0, 3px) rotate(360deg);\n}\n}", ""]);
 
 // exports
 
@@ -81247,41 +81067,43 @@ var render = function() {
                       _c("ul", [
                         _c("li", [
                           _vm._v(
-                            "PHP: Laravel, REST API, Service and Repository Pattern"
+                            "PHP: Laravel, Lumen, REST API, Backend Web Development"
                           )
                         ]),
-                        _vm._v(" "),
-                        _c("li", [_vm._v("HTML: Semantic")]),
-                        _vm._v(" "),
-                        _c("li", [_vm._v("CSS: Bootstrap, Flexbox")]),
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "JavaScript: JQuery, Vue.js, Angular, React (Native), Node"
+                            "Python:  Web Mining, Task Automation, Data Manipulation"
                           )
                         ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _vm._v(
+                            "JavaScript: Vue, Angular, Node, React Native, jQuery"
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _vm._v("Databases: MySQL, Postgres, SQlite, MongoDB")
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _vm._v("HTML: Semantic, blade/twig templating")
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("CSS: SCSS, Bootstrap, Flexbox")]),
                         _vm._v(" "),
                         _c("li", [_vm._v("CMS: WordPress, October")]),
                         _vm._v(" "),
-                        _c("li", [_vm._v("Redux: Paired with React Native")]),
-                        _vm._v(" "),
                         _c("li", [
-                          _vm._v(
-                            "Python: Automation, Data crunching, web scraping (beautifulSoup)"
-                          )
+                          _vm._v("Package Management: NPM, Composer, Pip")
                         ]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Object Oriented Design")]),
                         _vm._v(" "),
                         _c("li", [
                           _vm._v("Java and C++: Academic hands-on experience")
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [_vm._v("Package Management: NPM, Composer")]),
-                        _vm._v(" "),
-                        _c("li", [_vm._v("Search Algorithms")]),
-                        _vm._v(" "),
-                        _c("li", [_vm._v("Data Structures")]),
-                        _vm._v(" "),
-                        _c("li", [_vm._v("Object Oriented Design")])
+                        ])
                       ])
                     ])
                   ]),
@@ -81289,35 +81111,55 @@ var render = function() {
                   _c("b-col", [
                     _c("ul", [
                       _c("li", { staticClass: "listTitle" }, [
-                        _vm._v("Professional Skills:")
+                        _vm._v("Project Management")
                       ]),
                       _vm._v(" "),
                       _c("ul", [
-                        _c("li", [_vm._v("Version Control: Git")]),
+                        _c("li", [
+                          _vm._v(
+                            "Team Collaboration: Daily Standups, Code Reviews"
+                          )
+                        ]),
                         _vm._v(" "),
-                        _c("li", [_vm._v("Test Driven Development")]),
+                        _c("li", [_vm._v("Docker: Compose, Traefik")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Version Control: Git, Git Flow")]),
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "Methodologies: Agile, SCRUM, SDLC, Trello, Kanban"
+                            "Support: Technical Documentation, Employee Training"
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Test Driven Development")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "listTitle" }, [
+                        _vm._v("Software Usage")
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", [
+                        _c("li", [
+                          _vm._v(
+                            "Adobe Creative Suite: Fireworks, Illustrator, Photoshop"
                           )
                         ]),
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "Adobe Creative Suite: Fireworks, Illustrator, Photoshop, Dreamweaver"
+                            "Microsoft Suite: Office365, Word, PowerPoint, Excel"
                           )
                         ]),
                         _vm._v(" "),
                         _c("li", [
-                          _vm._v("Microsoft Suite: Word, PowerPoint, Excel")
+                          _vm._v(
+                            "G Suite: Dialog Flow, Sheets, Docs, Forms and Slides"
+                          )
                         ]),
                         _vm._v(" "),
-                        _c("li", [
-                          _vm._v("G Suite: Sheets, Docs, Forms and Slides")
-                        ]),
+                        _c("li", [_vm._v("Atlassian: Jira, Confluence")]),
                         _vm._v(" "),
-                        _c("li", [_vm._v("Tableau")])
+                        _c("li", [_vm._v("Other: Lucid Charts, Tableau")])
                       ])
                     ])
                   ])
@@ -81455,12 +81297,12 @@ var render = function() {
                   { staticClass: "text-light" },
                   [
                     _vm._v(
-                      "\n                        My name is Kevin Wildermuth. Welcome to my professional website, creativity outlet and\n                    experimental playground! I currently am employed as a software engineer specifically developing\n                    web applications. My passion was not always programming and technology.\n                    At an early age of 13, I began creating advertisements and walking door to door in an attempt\n                    to generate money by completing landscaping and small house hold projects. Quite successful I continued\n                    this throughout my academic years. Growing up I kept busy with a variety of activities\n                    such as: skateboarding, snowboarding, playing guitar and engaging in sports.\n                     "
+                      "\n                         My name is Kevin Wildermuth. Welcome to my professional website, creativity\n                    outlet, and experimental playground! I currently am employed as a Software Engineer specializing\n                    in web application development. My passion was not always programming and technology. At an early\n                    age of 13, I began creating advertisements and walking door to door in an attempt to generate money\n                    by landscaping and performing small household projects. Quite successful, I continued this throughout\n                    my academic years. Growing up I kept busy with a variety of activities such as: skateboarding, snowboarding,\n                    playing guitar and engaging in sports.\n                     "
                     ),
                     _c("br"),
                     _c("br"),
                     _vm._v(
-                      "\n                        After high school, while working full time in a factory my friend and I came up with\n                    an idea for a website that involved the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and categorizing content based\n                    on geographical location. With no prior experience, I began teaching myself website development,\n                    and within a few weeks completed our vision. I admit the site was not pretty, it was comprised\n                    of structural tables and hard codded spaghetti code, but witnessing our idea accessible on the public\n                    internet was the moment I became fascinated with developing software. This inspired me to study\n                    web development at my local community college then later pursuing a degree in web information systems at\n                    the "
+                      "\n                        After high school, while working full time in a factory my friend and I came up with an idea for\n                    a website that involved the hobbies we enjoyed (skateboarding, snowboarding, music, etc.) and\n                    categorizing content based on geographical location. With no prior experience, I began teaching myself\n                    website development, and within a few weeks completed our vision. I admit the site was not pretty,\n                    it was comprised of structural tables and spaghetti code, but witnessing our idea accessible on\n                    the public internet was the moment I became fascinated with developing software. This inspired\n                    me to study web development at my local community college then later pursuing a degree in web\n                    information systems at the\n                    "
                     ),
                     _c(
                       "a",
@@ -81471,10 +81313,14 @@ var render = function() {
                           target: "_blank"
                         }
                       },
-                      [_vm._v("New Jersey Institute of Technology")]
+                      [
+                        _vm._v(
+                          "\n                        New Jersey Institute of Technology "
+                        )
+                      ]
                     ),
                     _vm._v(
-                      ".\n                    During my adult education I continued my entrepreneur\n                    spirit and launched Pro Market Me INC. which was a website development and marketing company catering\n                    to small businesses. During this time I gained hands on experience working with paying clients while\n                    expanding my knowledge and skill set at school. Today, I am a full time software\n                    engineer at "
+                      ". During my adult education I continued my\n                    entrepreneur spirit and launched Pro Market Me INC. which was a website development and marketing company\n                    catering to small businesses. During this time, I gained hands on experience working with clients while\n                    expanding my knowledge and skill set at school. Today, I am a full-time Software Engineer at\n                    "
                     ),
                     _c(
                       "a",
@@ -81484,15 +81330,15 @@ var render = function() {
                           target: "_blank"
                         }
                       },
-                      [_vm._v("Internet Brands")]
+                      [_vm._v("Internet Brands ")]
                     ),
                     _vm._v(
-                      "\n                    and enjoy spending a large portion of my free time learning about new technologies and working on\n                    various side projects.\n\n                    "
+                      "\n                    and enjoy spending a large portion of my free time learning about new technologies and working on\n                    various side projects.\n\n\n                    "
                     ),
                     _c("br"),
                     _c("br"),
                     _vm._v(
-                      "\n                    Thank you for taking the time to learn about my journey into software engineering. If you would like\n                    to callobrate on a project, hire me at you company, or connect and perhaps be friends feel free to\n                    "
+                      "\n                    Thank you for taking the time to learn about my journey into software engineering. If you would like to collaborate,\n                    please feel free to\n                    "
                     ),
                     _c("b-link", { attrs: { href: "/contact" } }, [
                       _vm._v(
