@@ -2508,9 +2508,193 @@ var _assets_projects_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/ResumeComponent.vue?vue&type=script&lang=js& ***!
   \********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/kevin/phpstormprojects/professional_website/resources/js/components/pages/ResumeComponent.vue: Unexpected token, expected \",\" (169:32)\n\n\u001b[0m \u001b[90m 167 | \u001b[39m                            [\u001b[0m\n\u001b[0m \u001b[90m 168 | \u001b[39m                                \u001b[32m\"Maintain and update multiple websites (75k+ users monthly)\"\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 169 | \u001b[39m                                \u001b[32m\"Develop custom web applications to improve business operations\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     | \u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 170 | \u001b[39m                                \u001b[32m\"Effectively research technologies and implement technical solutions to solve business needs and requirements\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 171 | \u001b[39m                                \u001b[32m\"Business migration to use Office 365\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 172 | \u001b[39m                                \u001b[32m\"Train staff on new technologies introduced to the business\"\u001b[39m\u001b[0m\n    at Parser._raise (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:742:17)\n    at Parser.raiseWithData (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:735:17)\n    at Parser.raise (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:729:17)\n    at Parser.unexpected (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:8757:16)\n    at Parser.expect (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:8743:28)\n    at Parser.parseExprList (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10680:14)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9969:32)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)\n    at Parser.parseMaybeUnary (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9582:21)\n    at Parser.parseExprOps (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9452:23)\n    at Parser.parseMaybeConditional (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9425:23)\n    at Parser.parseMaybeAssign (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9380:21)\n    at Parser.parseObjectProperty (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10512:101)\n    at Parser.parseObjPropValue (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10537:101)\n    at Parser.parseObjectMember (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10461:10)\n    at Parser.parseObj (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10374:25)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9995:28)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)\n    at Parser.parseMaybeUnary (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9582:21)\n    at Parser.parseExprOps (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9452:23)\n    at Parser.parseMaybeConditional (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9425:23)\n    at Parser.parseMaybeAssign (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9380:21)\n    at Parser.parseExprListItem (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10718:18)\n    at Parser.parseExprList (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10692:22)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9969:32)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)\n    at Parser.parseMaybeUnary (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9582:21)\n    at Parser.parseExprOps (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9452:23)\n    at Parser.parseMaybeConditional (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9425:23)\n    at Parser.parseMaybeAssign (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9380:21)\n    at Parser.parseObjectProperty (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10512:101)\n    at Parser.parseObjPropValue (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10537:101)\n    at Parser.parseObjectMember (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10461:10)\n    at Parser.parseObj (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:10374:25)\n    at Parser.parseExprAtom (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9995:28)\n    at Parser.parseExprSubscripts (/home/kevin/phpstormprojects/professional_website/node_modules/@babel/parser/lib/index.js:9602:23)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../backgrounds/WavesBackground */ "./resources/js/components/backgrounds/WavesBackground.vue");
+/* harmony import */ var _stores_PublicStore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stores/PublicStore.js */ "./resources/js/components/stores/PublicStore.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+var axios = __webpack_require__(/*! axios/index */ "./node_modules/axios/index.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  },
+  components: {
+    'waves-background': _backgrounds_WavesBackground__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      profExps: [{
+        company: 'Internet Brands',
+        company_link: 'https://www.internetbrands.com/',
+        title: 'Software Engineer',
+        location: 'New Providence, NJ',
+        duration: 'August 2018 - Present',
+        tasks: ["Architect, develop and test new applications", "Develop various ad hoc software to help internal business operations", "Add features, debug issues, and test complex high traffic software", "Assist developers and engineers in resolving key issues", "Work closely with team members to outline solutions to improve the architecture of the existing systems", "Resolve compatibility issues with software upgrades", "Effectively manage individual priorities and deadlines", "Collaborate with multiple teams such as Product, Design, and offshore developers to maintain high traffic enterprise applications, improve critical infrastructure, and maintain production support tickets", "Primary utilized languages: PHP, Laravel, Python,  Vue.js, Node.js,  Angular.js, jQuery, Docker"]
+      }, {
+        company: 'Pro Market Me INC.',
+        title: 'President',
+        location: 'Fort Myers, FL.',
+        duration: 'August 2018 - Present',
+        tasks: ["Develop and maintain various small business websites by defining their business requirements and implementing their vision from concept through to completion", "Extensive WordPress configuration tailored to specific business needs", "Mobile UI experience enhancement", "Search Engine Optimization research and implementation", "Creation of website Illustrations, logos, online and print advertisements"]
+      }, {
+        company: 'UCEDA',
+        title: 'Lead Web Developer',
+        location: 'Paterson, NJ.',
+        duration: 'June 2015 - Present',
+        tasks: ["Maintain and update multiple websites (75k+ users monthly)", "Develop custom web applications to improve business operations", "Effectively research technologies and implement technical solutions to solve business needs and requirements", "Business migration to use Office 365", "Train staff on new technologies introduced to the business", "Assist and collaborate with the Director of Marketing to hel,p implement new strategies for the company's ongoing email campaigns, video, and image advertisements, website page design, and identify new marketing methods to capture existing and new clients", "Query database for data analysis using MySQL", "Determine new options to improve organic search engine ranking"]
+      }],
+      educations: [{
+        name: 'New Jersey Institute of Technology',
+        degree: 'Bachlor of Science, Web Information Systems',
+        degree_link: 'https://catalog.njit.edu/undergraduate/computing-sciences/informatics/web-information-systems-bs/',
+        location: 'Newark, NJ',
+        graduation: 'Summer 2018',
+        details: ['3.7 GPA', 'Senior Capstone Project: Upgraded NJIT’s live parking application as a ' + 'competitive project choice and received a letter of recommendation from the ' + 'head department of technology. ', 'Developed a python web scraper to calculate support and confidence towards the ' + 'occurrence of words that relate to a specific topic. The crawler used the website ' + 'Wikipedia for its data retrieving 500 relative pages. ']
+      }, {
+        name: 'Passaic County Community College',
+        degree: 'Associate of Applied Science, IT Web Design Options',
+        degree_link: 'https://catalog.pccc.edu/program/100/',
+        location: 'Paterson, NJ',
+        graduation: 'Summer 2015'
+      }],
+      psMethods: _stores_PublicStore_js__WEBPACK_IMPORTED_MODULE_1__["default"].methods,
+      psData: _stores_PublicStore_js__WEBPACK_IMPORTED_MODULE_1__["default"].data
+    };
+  },
+  methods: {
+    downloadResume: function downloadResume(pdf_type) {
+      switch (pdf_type) {
+        case '.pdf':
+          window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
+          break;
+
+        case 'txt':
+          window.open("/storage/Kevin-Wildermuth-Resume.txt", "_blank");
+          break;
+
+        default:
+          window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
+      }
+    }
+  }
+});
 
 /***/ }),
 
@@ -81030,7 +81214,7 @@ var render = function() {
                 _c("a", { attrs: { href: "tel:9739108766" } }, [
                   _vm._v("973-910-8766")
                 ]),
-                _vm._v("  |\n                "),
+                _vm._v(" |\n                "),
                 _c(
                   "a",
                   { attrs: { href: "mailto:kevinwildermuth1@gmail.com" } },
@@ -81073,7 +81257,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "Python:  Web Mining, Task Automation, Data Manipulation"
+                            "Python: Web Mining, Task Automation, Data Manipulation"
                           )
                         ]),
                         _vm._v(" "),
@@ -81173,9 +81357,15 @@ var render = function() {
               _vm._v(" "),
               _vm._l(_vm.profExps, function(profExp) {
                 return _c("div", { attrs: { id: "profExpContainer" } }, [
-                  _c("span", { staticClass: "largeText" }, [
-                    _vm._v(_vm._s(profExp.company))
-                  ]),
+                  _c(
+                    "a",
+                    { attrs: { href: profExp.company_link, target: "_blank" } },
+                    [
+                      _c("span", { staticClass: "largeText" }, [
+                        _vm._v(_vm._s(profExp.company))
+                      ])
+                    ]
+                  ),
                   _vm._v(" "),
                   _c("span", { staticClass: "smallText" }, [
                     _vm._v(" - " + _vm._s(profExp.location) + " ")
@@ -81213,7 +81403,11 @@ var render = function() {
                   _vm._v(" "),
                   _c("br"),
                   _vm._v(" "),
-                  _c("i", [_vm._v(_vm._s(edu.degree))]),
+                  _c(
+                    "a",
+                    { attrs: { href: edu.degree_link, target: "_blank" } },
+                    [_c("i", [_vm._v(_vm._s(edu.degree))])]
+                  ),
                   _vm._v(" "),
                   _c("span", { staticClass: "smallText" }, [
                     _vm._v(" - " + _vm._s(edu.location) + " ")

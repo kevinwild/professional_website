@@ -7,7 +7,7 @@
         <b-button size="lg" @click="downloadResume" variant="outline-light">
             Download Resume <i class="fas fa-download"></i>
         </b-button>
-        <b-dropdown id="downloadResume"  text="Download Resume" class="m-md-2" variant="outline-light">
+        <b-dropdown id="downloadResume" text="Download Resume" class="m-md-2" variant="outline-light">
             <b-dropdown-item @click="downloadResume('docx')">.docx</b-dropdown-item>
             <b-dropdown-item @click="downloadResume('pdf')">.pdf</b-dropdown-item>
             <b-dropdown-item @click="downloadResume('txt')">.txt</b-dropdown-item>
@@ -22,7 +22,7 @@
                 <p class="smallText text-center">
                     <a href="https://www.google.com/maps/place/Wayne,+NJ+07470/@40.9484458,-74.3124033,12z/data=!3m1!4b1!4m5!3m4!1s0x89c30260113c84d3:0xe654539a1cb20344!8m2!3d40.9253725!4d-74.2765441"
                        target="_blank"> Wayne, NJ 07470 </a>|
-                    <a href="tel:9739108766">973-910-8766</a>  |
+                    <a href="tel:9739108766">973-910-8766</a> |
                     <a href="mailto:kevinwildermuth1@gmail.com">KevinWildermuth1@gmail.com</a> |
                     <a href="/"> www.KevinWildermuth.com </a>
                 </p>
@@ -38,7 +38,7 @@
                             <li class="listTitle">Programming Technologies:</li>
                             <ul>
                                 <li>PHP: Laravel, Lumen, REST API, Backend Web Development</li>
-                                <li>Python:  Web Mining, Task Automation, Data Manipulation</li>
+                                <li>Python: Web Mining, Task Automation, Data Manipulation</li>
                                 <li>JavaScript: Vue, Angular, Node, React Native, jQuery</li>
                                 <li>Databases: MySQL, Postgres, SQlite, MongoDB</li>
                                 <li>HTML: Semantic, blade/twig templating</li>
@@ -74,7 +74,9 @@
                 </b-row>
                 <p class="largeText font-weight-bolder">Professional Experience</p>
                 <div v-for="profExp in profExps" id="profExpContainer">
-                    <span class="largeText">{{ profExp.company}}</span>
+                    <a :href="profExp.company_link" target="_blank">
+                        <span class="largeText">{{ profExp.company}}</span>
+                    </a>
                     <span class="smallText"> - {{ profExp.location}} </span>
                     <span class="float-right smallText"> {{ profExp.duration}} </span>
                     <ul>
@@ -88,7 +90,7 @@
                 <p class="largeText font-weight-bolder">Education</p>
                 <div v-for="edu in educations">
                     <span class="largeText">{{ edu.name}}</span> <br>
-                    <i>{{ edu.degree }}</i>
+                    <a :href="edu.degree_link" target="_blank"><i>{{ edu.degree }}</i></a>
                     <span class="smallText"> - {{ edu.location}} </span>
                     <span class="float-right smallText"> {{ edu.graduation}} </span>
                     <ul>
@@ -127,6 +129,7 @@
                     [
                         {
                             company: 'Internet Brands',
+                            company_link: 'https://www.internetbrands.com/',
                             title: 'Software Engineer',
                             location: 'New Providence, NJ',
                             duration: 'August 2018 - Present',
@@ -165,16 +168,16 @@
                             duration: 'June 2015 - Present',
                             tasks:
                                 [
-                                    "Maintain and update multiple websites (75k+ users monthly)"
-                                    "Develop custom web applications to improve business operations"
-                                    "Effectively research technologies and implement technical solutions to solve business needs and requirements"
-                                    "Business migration to use Office 365"
-                                    "Train staff on new technologies introduced to the business"
-                                    "Assist and collaborate with the Director of Marketing to help implement new strategies for the company's ongoing email campaigns, video, and image advertisements, website page design, and identify new marketing methods to capture existing and new clients"
-                                    "Query database for data analysis using MySQL"
-                                    "Determine new options to improve organic search engine ranking"
+                                    "Maintain and update multiple websites (75k+ users monthly)",
+                                    "Develop custom web applications to improve business operations",
+                                    "Effectively research technologies and implement technical solutions to solve business needs and requirements",
+                                    "Business migration to use Office 365",
+                                    "Train staff on new technologies introduced to the business",
+                                    "Assist and collaborate with the Director of Marketing to hel,p implement new strategies for the company's ongoing email campaigns, video, and image advertisements, website page design, and identify new marketing methods to capture existing and new clients",
+                                    "Query database for data analysis using MySQL",
+                                    "Determine new options to improve organic search engine ranking",
 
-        ]
+                                ]
                         },
                     ],
                 educations:
@@ -182,6 +185,7 @@
                         {
                             name: 'New Jersey Institute of Technology',
                             degree: 'Bachlor of Science, Web Information Systems',
+                            degree_link: 'https://catalog.njit.edu/undergraduate/computing-sciences/informatics/web-information-systems-bs/',
                             location: 'Newark, NJ',
                             graduation: 'Summer 2018',
                             details:
@@ -201,6 +205,7 @@
                         {
                             name: 'Passaic County Community College',
                             degree: 'Associate of Applied Science, IT Web Design Options',
+                            degree_link: 'https://catalog.pccc.edu/program/100/',
                             location: 'Paterson, NJ',
                             graduation: 'Summer 2015',
                         }
@@ -211,7 +216,7 @@
         },
         methods: {
             downloadResume(pdf_type) {
-                switch(pdf_type) {
+                switch (pdf_type) {
                     case '.pdf':
                         window.open("/storage/Kevin-Wildermuth-Resume.pdf", "_blank");
                         break;
